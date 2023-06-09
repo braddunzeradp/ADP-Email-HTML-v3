@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="mso-padding-top" description="for padding to work on P tag we need border ... but will work on <td> without border" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<p style="mso-padding-top-alt:1em;mso-padding-bottom-alt:1em;background:red;border:1px solid;">test</p>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

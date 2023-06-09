@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Footer-BGWhite" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START ROW Footer -->
+ <table id="footer" role="presentation" class="footer-table-wht" align="center" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td class="px-m-0" style="color: #222222;background-color: #ffffff;mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
+		<ol style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;">
+		<li>footnote item</li>
+		<li>footnote item</li>	
+		</ol>
+      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#222222;text-align: center;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- END ROW footer -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

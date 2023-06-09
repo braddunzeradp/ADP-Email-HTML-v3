@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Detect Samsung" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* Specific Samsung Mail detection */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+				#MessageViewBody .fallback, body.MsgBody .fallback { display:block!important; }
+				#MessageViewBody .interactive, body.MsgBody .interactive { display:none !important; }
+				#MessageViewBody .samsung { display:none !important; }
+				}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

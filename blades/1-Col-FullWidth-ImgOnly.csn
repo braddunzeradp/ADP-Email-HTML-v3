@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-FullWidth-ImgOnly" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START ONE COLUMN --> 				
+  <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+        <tr>
+         
+          <td class="col" align="left" width="600" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 600px;mso-line-height-rule:at-least;">
+             <img class="img-scale" src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B0b8813d0-dc1a-4560-a0cb-0286cace21a6%7D_876552_RD-Tax-Credits-Help-Your-Clients-Stay-Between-the-Lines_1200w.jpg" width="600" height="auto" alt="" style="max-width: 600px; width: 100%; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; ">
+          </td> 
+          
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table> 
+<!-- END ONE COLUMN -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

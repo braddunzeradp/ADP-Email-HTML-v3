@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Vertical Spacer 16" description="" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START vspacer -->
+<div class="vspacer16" style="font-size:16px;line-height: 16px;clear:both;" aria-hidden="true">&nbsp;</div>
+<!-- END vspacer -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

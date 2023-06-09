@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Font-Family" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

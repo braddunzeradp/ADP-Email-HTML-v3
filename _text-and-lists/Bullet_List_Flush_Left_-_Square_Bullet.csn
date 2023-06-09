@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Bullet List Flush Left - Square Bullet" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[			   <ul class="list-flush-left" style="list-style: square; color: #be534e;">
+               <li style="color: #be534e;mso-margin-top-alt:0"><span style="color: #383d5a;">First Bullet has special style for top margin in Outlook</span></li>
+               <li style="color: #be534e;"><span style="color: #383d5a;">add content</span></li>
+               <li style="color: #be534e;"><span style="color: #383d5a;">add content</span></li>
+               <li style="color: #be534e;"><span style="color: #383d5a;">add content</span></li>
+             </ul><div class="listfixer" style="font-size:1px;line-height: 1px;clear:both;">&nbsp;</div><!-- prevents extra bullet from showing up -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

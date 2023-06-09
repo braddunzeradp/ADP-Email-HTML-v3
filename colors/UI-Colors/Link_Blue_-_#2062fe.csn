@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Link Blue - #2062fe" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#2062fe]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

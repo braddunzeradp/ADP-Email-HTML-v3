@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Sand - #f9ac84" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#f9ac84]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

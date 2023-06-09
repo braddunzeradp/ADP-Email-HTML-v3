@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="campaign id merge" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<eloqua type="campaign" fieldname="id" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

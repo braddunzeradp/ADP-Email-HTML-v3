@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ADPLogo-NoTagline-BGWhite-RedLogo_50/50" description="columns resize and do not stack" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Two Col Resizeable -->
+ <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td>                
+ <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr class="mobile-hide">
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+    <td class="col-resize"  align="left" style="max-width:267px;">&nbsp; </td>
+    <td class="col-resize"  align="right"  style="max-width:267px;">&nbsp;</td>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+  </tr>
+	 <tr>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+    <td class="col-resize"  align="left" style="max-width:267px;"><img src="http://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B176754e1-1075-43ff-a721-41f002fbe002%7D_adp-70x32.png" width="70" alt="ADP Logo" style="max-width: 70px; width: 70px; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"> </td>
+    <td class="col-resize"  align="right"  style="max-width:267px;"><img src="https://placehold.co/100x32/0041dc/FFFFFF/png" width="100" height="auto" alt="" style="max-width: 100px; width: 100px; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;">&nbsp;</td>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+  </tr>
+	   <tr class="mobile-hide">
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+    <td class="col-resize"  align="left" style="max-width:267px;">&nbsp; </td>
+    <td class="col-resize"  align="right"  style="max-width:267px;">&nbsp;</td>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+  </tr>
+</table> 
+ </td>
+ </tr>                
+</table>         
+<!-- END Two Col Resizeable -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

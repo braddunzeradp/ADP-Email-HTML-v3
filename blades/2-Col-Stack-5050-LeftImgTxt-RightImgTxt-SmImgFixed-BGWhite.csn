@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-Stack-50/50-LeftImgTxt-RightImgTxt-SmImgFixed-BGWhite" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Two Col with Two Column in each main column -->
+ <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+	 <tr>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+    <td class="col py-16"  align="left" style="max-width:267px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse;">
+		 <table align="left" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+			 <tr>
+				 <td width="80"><img class="img-scale" src="https://placehold.co/80x80/0041dc/FFFFFF/png" width="80" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 80px;"></td>
+				 <td style="mso-padding-alt: 1em 1em 1em 1em;padding: 0em 1em 0em 1em;" ><p style="font-size:1em;">Left Paragraph text element what happens</p></td>
+			 </tr>
+		</table>	
+		 </td>
+    <td class="col py-16"  align="left"  style="max-width:267px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse;">
+		<table align="left" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+			 <tr>
+				 <td width="80"><img class="img-scale" src="https://placehold.co/80x80/0041dc/FFFFFF/png" width="80" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 80px;"></td>
+				 <td style="mso-padding-alt: 1em 1em 1em 1em;padding: 0em 1em 0em 1em;" ><p style="font-size:1em;">Right Paragraph text element what happens</p></td>
+			 </tr>
+		</table>
+		 </td>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+  </tr>
+</table> 
+<!-- END Two Col with Two Column in each main column -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

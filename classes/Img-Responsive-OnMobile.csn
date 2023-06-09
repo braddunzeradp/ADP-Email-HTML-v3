@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Img-Responsive-OnMobile" description="add to class on an <img>" type="block">
+<insertText location="beforeSelection">
+<![CDATA[img-scale]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

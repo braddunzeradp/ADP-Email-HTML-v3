@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2x2-Col-Stack-50/50-LTxt-RImg+RTxt-LTxt-ImgScales-Mobile-BGWhite" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Quad Layout -->				
+<!-- START TWO COLUMN 50/50 FULL WIDTH PADDING ON LEFT AND RIGHT --> 
+         
+  <table class="col-5050-2img" bgcolor="#ffffff" style="background-color:#ffffff ;" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>&nbsp;<!-- top margin row --> </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+	</tr>
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td class="pb-m-16">
+    
+    <!-- Start left Column with IMAGE and Text -->
+       <table class="col-img col-img264 pt-sm-24" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 264px;" width="264">
+        <tr>
+	        <td class="col-img" align="center" width="264" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 264px;" >
+        <table class="col-img col-img264" cellpadding="0" cellspacing="0" role="presentation" width="264" align="center" style="width: 264px;">
+            <tr>
+               <td class="col-img col-img264 pb-m-16" align="left" width="264" style="mso-line-height-rule:at-least;width: 264px;" >
+                   <p style="font-size: 1em;">Left-hand side content</p>
+              </td>
+            </tr>
+        </table>
+          
+           
+          </td>
+        </tr>
+      </table>
+    <!-- END left Column with IMAGE and Text -->
+    
+   <!-- Start spacer in column layout -->
+       <table class="col3-spacer mobile-hide" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="margin: 0;padding:0;width:18px;border-collapse: collapse;" width="18">
+		 <tr><td>&nbsp;</td></tr></table>
+	<!-- End spacer in  column layout -->	 
+    
+      <!-- Start Right Column with IMAGE and Text -->
+       <table class="col-img col-img264 pt-sm-24" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 264px;" width="264">
+        <tr>
+	        <td class="col-img" align="center" width="264" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 264px;" >
+                <table class="col-img col-img264" cellpadding="0" cellspacing="0" role="presentation" width="264" align="center" style="width: 264px;">
+                  <tr>
+                    <td class="col-img col-img264" align="center" width="264" style="mso-line-height-rule:at-least;" >
+                       <img class="img-scale" src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B2e145e4f-646c-44c4-9b5c-20d4a3f2adca%7D_SBS_FY23_Mobile-Email-CTA-1-488.png" width="264" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;">
+                      </td>
+                  </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+    <!-- END Right Column with IMAGE and Text --> 
+       
+
+    </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+  </tr>
+  <tr class="mobile-hide">
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>&nbsp;<!-- bottom margin row --> </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+	</tr>
+</table> 
+<!-- END TWO COLUMN 50/50 FULL WIDTH PADDING ON LEFT AND RIGHT --> 	
+				
+	<!-- START TWO COLUMN 50/50 FULL WIDTH PADDING ON LEFT AND RIGHT Stacks Top --> 
+         
+  <table class="col-5050-2img" bgcolor="#ffffff" style="background-color:#ffffff ;" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>
+    <!-- Start Two Col Stack Right to Top -->
+       <table dir="rtl" width="100%" bgcolor="#ffffff" style="background-color:#ffffff ;" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td width="50%" dir="ltr" class="col">
+						  <table class="col" cellpadding="0" cellspacing="0" role="presentation" width="264" align="center" style="width: 264px;">
+                          <tr>
+                              <td class="col pb-m-16" align="left" width="264" style="mso-line-height-rule:at-least;width: 264px;" >
+							  <p style="font-size: 1em;">Right-hand side content: Stacks on top on mobile</p>
+							  </td>
+                            </tr>
+                        </table>
+						</td>
+                      <td width="50%" dir="ltr" class="col">
+						  <table class="col-img col-img264" cellpadding="0" cellspacing="0" role="presentation" width="264" align="center" style="width: 264px;">
+                          <tr>
+                              <td class="col-img col-img264" align="center" width="264" style="mso-line-height-rule:at-least;width: 264px;" >
+							  <img class="img-scale" src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B2e145e4f-646c-44c4-9b5c-20d4a3f2adca%7D_SBS_FY23_Mobile-Email-CTA-1-488.png" width="264" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;">
+							  </td>
+                            </tr>
+                        </table>
+						</td>
+                    </tr>
+         </table>
+    <!-- END Right Column with IMAGE and Text --> 
+    </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+  </tr>
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>&nbsp;<!-- bottom margin row --> </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+	</tr>
+</table> 
+<!-- END TWO COLUMN 50/50 FULL WIDTH PADDING ON LEFT AND RIGHT -->			
+<!--END Quad layout -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

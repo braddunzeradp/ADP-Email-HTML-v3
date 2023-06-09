@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ADP Navy - #121c4e" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#121c4e]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="H2" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<h2>H2</h2>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

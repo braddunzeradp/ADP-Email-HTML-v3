@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Text link (Dark Gray #222222)" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a class="link-black" style="text-decoration: underline; color: #2222222;" href="#" ><span class="link-black-inner" style="color: #222222; text-decoration: underline;">Text color link. blue is preferred</span></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

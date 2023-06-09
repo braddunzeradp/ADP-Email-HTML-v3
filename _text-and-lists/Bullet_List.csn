@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Bullet List" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<ul>
+<li style="mso-margin-top-alt:0">First Bullet has special style for top margin in Outlook</li>
+<li>ADP</li>
+<li>ADP</li>
+</ul><div class="listfixer" style="font-size:1px;line-height: 1px;clear:both;">&nbsp;</div><!-- prevents extra bullet from showing up -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

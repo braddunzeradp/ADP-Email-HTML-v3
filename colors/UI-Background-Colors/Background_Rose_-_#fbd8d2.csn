@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Background Rose - #fbd8d2" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#fbd8d2]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

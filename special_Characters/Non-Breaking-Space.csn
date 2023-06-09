@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Non-Breaking-Space" description="">
+<insertText location="beforeSelection">
+<![CDATA[&nbsp;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

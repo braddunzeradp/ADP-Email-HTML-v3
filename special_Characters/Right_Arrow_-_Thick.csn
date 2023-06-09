@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Right Arrow - Thick" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[&#x279C;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

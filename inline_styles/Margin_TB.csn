@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Margin T|B" description="Outlook will only support top and bottom margin. Not left or right" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[mso-margin-top-alt:1em;mso-margin-bottom-alt:1em;margin-top:1em;margin-bottom:1em;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

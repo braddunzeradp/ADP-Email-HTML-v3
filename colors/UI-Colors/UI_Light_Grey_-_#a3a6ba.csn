@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="UI Light Grey - #a3a6ba" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#a3a6ba]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Column-FullWidth-OnMobile" description="set on the class of a <td> to make it scale at 600px and below" type="block">
+<insertText location="beforeSelection">
+<![CDATA[col]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

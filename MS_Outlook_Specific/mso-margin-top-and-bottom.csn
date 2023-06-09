@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="mso-margin-top-and-bottom" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<p style="mso-margin-top-alt:1em;mso-margin-bottom-alt:1em;">test</p>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

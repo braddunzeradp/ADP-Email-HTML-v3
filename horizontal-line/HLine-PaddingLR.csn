@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="HLine-PaddingLR" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Horizontal Line  -->
+ <table role="presentation" class="hline-padded" align="center" cellpadding="0" cellspacing="0"  width="100%" aria-hidden="true">
+ 
+   <tr>
+	   <td width="24" class="px-0" style="margin: 0; padding: 0;font-size: 1px;line-height: 1px;">&nbsp;</td>
+    <td  class="px-0" style="margin: 0; padding: 0;font-size: 1px;line-height: 1px;">
+    <div style="font-size:0; line-height: 0; height:0;margin:0; border-top: 1px solid #555559; text-align: center;margin:0 auto;">&nbsp;</div>
+    </td>
+     <td width="24" class="px-0" style="margin: 0; padding: 0;font-size: 1px;line-height: 1px;">&nbsp;</td>
+  </tr>
+</table>
+<!-- END Horizontal Line -->  ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

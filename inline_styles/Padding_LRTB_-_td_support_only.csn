@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Padding L|R|T|B - <td> support only" description="this will work on TD but not on P tags...only on P tags if you have a border of 1px or greater" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Footnote-BGLightGrey" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!-- START ROW Footnote -->
+ <table role="presentation" bgcolor="#f3f3f3" class="footnote-table-grey" align="left" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f3f3f3;">
+  <tr>
+    <td class="px-16" style="color: #222222; font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size:.55em; line-height: 14px;text-align: left;mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
+       <ol>
+		   <li>Sample footnote</li>
+		</ol>
+    </td>
+  </tr>
+</table>
+<!-- END ROW footnote -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

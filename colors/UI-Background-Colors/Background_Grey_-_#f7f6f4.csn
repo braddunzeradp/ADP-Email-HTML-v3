@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Background Grey - #f7f6f4" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#f7f6f4]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

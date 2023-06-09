@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="footer-text-with-auto-year" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ADP, the ADP logo, RUN Powered by ADP and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved.]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

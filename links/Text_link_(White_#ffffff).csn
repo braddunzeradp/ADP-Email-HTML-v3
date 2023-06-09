@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Text link (White #ffffff)" description="" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<a class="link-white" style="text-decoration: underline; color: #fffff;font-weight: 600;" href="#" ><span class="link-white-inner" style="color: #ffffff; text-decoration: underline;font-weight: 600;">White Link</span></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

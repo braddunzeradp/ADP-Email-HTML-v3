@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Show If Not Outlook MSO" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--[if !mso]><!-->
+content goes here
+<!--<![endif]-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="H1" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<h1>H1 use only one per email</h1>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

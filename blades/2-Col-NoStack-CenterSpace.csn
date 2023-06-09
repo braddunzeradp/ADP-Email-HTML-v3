@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-NoStack-CenterSpace" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Two Col Resizeable -->
+ <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td>                
+ <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+ 
+	 <tr>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+    <td class="col-resize" align="left" style="max-width:262px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse;">
+		 <p>Left Column</p>
+		
+		 </td>
+		 
+	<td width="10px">&nbsp;</td>	 
+    <td class="col-resize" align="left"  style="max-width:262px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse;">
+		<p>Right Column</p>
+		 </td>
+      <td class="mobile-hide"  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+  </tr>
+	   
+</table> 
+ </td>
+ </tr>                
+</table>         
+<!-- END Two Col Resizeable -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

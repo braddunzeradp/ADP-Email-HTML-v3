@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col-Stack-33/33/33-ImgResize-BGWhite" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START THREE COLUMN  --> 
+           
+  <table  class="col-3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+  <tr>
+    <td style="mso-padding-alt: 1em 0em 1em 0em;padding: 0em 0em 1em 0em;">
+     <!-- Start Left Column --> 
+    <!-- Start spacer in 3+ column layout -->
+       <table class="col3-spacer" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="margin: 0;padding:0;width:24px;border-collapse: collapse;" width="24">
+		 <tr><td>&nbsp;</td></tr></table>
+	<!-- End spacer in 3+ column layout -->	
+      <table class="col-img col-168" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;border-collapse: collapse;width: 168px;" width="168">
+        <tr>
+	        <td class="col-img" align="center" width="168" style="min-width: 100%; margin: 0 auto;width: 168px;" >
+				
+         
+         
+         <table class="col" bgcolor="#f3e8df" cellpadding="0" cellspacing="0" role="presentation" width="168" align="center" style="width: 168px;background-color: #f3e8df;">
+        <tr>
+	      <td valign="top" style="vertical-align: top;width: 168px;" class="col col-168" align="center" width="168" height="168" > 
+          <!-- start content text -->
+			 <table cellpadding="10" cellspacing="0" role="presentation" width="100%" style="width:100%;">
+				<tr>
+					<td valign="top" style="vertical-align: top; width:100%;mso-padding-alt: 0em .5em 0em .5em;padding: 0em .5em 0em .5em;"  align="left" width="100%" >
+						<p style="font-size:1em;">Paragraph text element</p>
+					</td>
+				</tr>
+			  </table>
+			<!-- end content text -->
+			</td>
+        </tr>
+      </table>
+          
+           
+          </td>
+        </tr>
+      </table>
+     <!-- Start spacer in 3+ column layout -->
+       <table class="col3-spacer" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="margin: 0;padding:0;width:20px;border-collapse: collapse;" width="20">
+		 <tr><td>&nbsp;</td></tr></table>
+	<!-- End spacer in 3+ column layout -->	 
+<!-- Start Mid Column   -->
+      <table class="col-img col-168" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 168px;" width="168">
+        <tr>
+	        <td class="col-img" align="center" width="168" style="min-width: 100%; margin: 0 auto;width:168px;" >
+				
+         
+         
+         <table class="col-img" cellpadding="0" cellspacing="0" role="presentation" width="168" align="center" style="width: 168px;">
+        <tr>
+	      <td style="mso-line-height-rule:at-least;width: 168px;height: auto;margin: auto;" class="col-img" align="center" width="168" height="auto" >
+			   <!-- start content image -->
+         <img class="img-scale" src="https://placehold.co/168x168/0041dc/FFFFFF/png" width="168" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 168px;">
+           		<!-- end content image -->
+			 
+          </td>
+        </tr>
+      </table>
+	      
+          </td>
+        </tr>
+      </table>
+         <!-- Start spacer in 3+ column layout -->
+       <table class="col3-spacer" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="margin: 0;padding:0;width:20px;border-collapse: collapse;" width="20">
+		 <tr><td>&nbsp;</td></tr></table>
+	<!-- End spacer in 3+ column layout -->	
+      <!-- start right column -->
+      <table class="col-img col-168" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 168px;" width="168">
+        <tr>
+	        <td class="col-img" align="center" width="168" style="min-width: 100%; margin: 0 auto;width: 168px;" >
+				
+         
+         
+          <table class="col" bgcolor="#f3e8df" cellpadding="0" cellspacing="0" role="presentation" width="168" align="center" style="width: 168px;background-color: #f3e8df;">
+        <tr>
+	      <td valign="top" style="vertical-align: top;width: 168px;" class="col col-168" align="center" width="168" height="168" > 
+          <!-- start content text -->
+			 <table cellpadding="10" cellspacing="0" role="presentation" width="100%" style="width:100%;">
+				<tr>
+					<td valign="top" style="vertical-align: top;width:100%;mso-padding-alt: 0em .5em 0em .5em;padding: 0em .5em 0em .5em;"  align="left" width="100%" >
+						<p style="font-size:1em;">Paragraph text element</p>
+					</td>
+				</tr>
+			  </table>
+			<!-- end content text -->
+			</td>
+        </tr>
+      </table>
+           
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- END THREE COLUMN  --> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

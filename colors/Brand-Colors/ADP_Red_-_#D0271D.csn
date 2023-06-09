@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ADP Red - #D0271D" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#D0271D]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

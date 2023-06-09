@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Vertical Spacer 60 Alt" description="This version uses a css height control instead of a font and line-height rule" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<div class="vspacer_60" style="display: block; font-size: 0px; height: 60px; mso-line-height-rule: exactly; line-height: 0px; Margin: 0px; padding: 0px;" aria-hidden="true"> &nbsp; </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Tan - #efdfd1" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#efdfd1]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

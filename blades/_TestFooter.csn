@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="_TestFooter" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<table role="presentation" cellpadding="16" cellspacing="0" class="elq-footer" width="100%">
+	<tbody>
+		<tr>
+			<td class="alignment" style="text-align: center;">
+			<table role="presentation" cellpadding="0" cellspacing="0" class="elq-footer" style="margin:0 auto;">
+				<tbody>
+					<tr>
+						<td align="center" class="mobile-hide" style="line-height: 1px; font-size:1px; width: 24px;" width="24">&nbsp;</td>
+						<td align="left" class="container" style="width:552px;">
+						<p class="elq-footer-text" style="text-align: left;font-size:10px;line-height:12px;mso-line-height-rule:at-least;font-family: 'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">This message was sent to <a href="#" style="text-decoration: none; color: #333333;font-size:10px;"><span style="text-decoration: none; color: #333333;font-size:10px;line-height:12px;"><span class="eloquaemail">EmailAddress</span></span></a></p>
+
+						<p class="elq-footer-text" style="text-align: left;font-size:10px;line-height:12px;mso-line-height-rule:at-least;margin-bottom:8px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;"><a href="https://subscribe.adpinfo.com/en_US?sourceid=Email&elqTrackId=3f2380aab02541608222e0aeb3a31b56" style="text-decoration: underline; color: #333333;font-size:10px;line-height:12px;"><span style="text-decoration: underline; color: #333333;font-size:10px;line-height:12px;">Unsubscribe</span></a> &mdash; To opt-out of commercial emails. If your company is currently receiving services from ADP, this will not impact the electronic messages we send to you for purposes of delivering such services.</p>
+
+						<p class="elq-footer-text" style="text-align: left;font-size:10px;line-height:12px;mso-line-height-rule:at-least;margin-bottom:8px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;"><a href="https://subscribe.adpinfo.com/en_US?sourceid=Email&elqTrackId=74ccae822b744527b0711028220b86ae" style="text-decoration: underline; color: #333333;font-size:10px;line-height:12px;"><span style="text-decoration: underline; color: #333333;font-size:10px;line-height:12px;">Resubscribe</span></a> &mdash; To opt-in to commercial emails.</p>
+
+						<p class="elq-footer-text" style="text-align: left;font-size:10px;line-height:12px;mso-line-height-rule:at-least;margin-bottom:8px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">For additional information about opt-in or opt-out methods and privacy practices, please see the <a href="https://www.adp.com/privacy.aspx?elqTrackId=e905426e1dc942daaa21ae3a67341e76" style="text-decoration: underline; color: #333333;font-size:10px;line-height:12px; white-space: nowrap"><span style="text-decoration: underline; color: #333333;font-size:10px;line-height:12px;">ADP&nbsp;Privacy&nbsp;Statement for Business&nbsp;Contacts</span></a></p>
+
+						<p class="elq-footer-text" style="text-align: left;font-size:10px;line-height:12px;mso-line-height-rule:at-least;margin-bottom:8px;font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">This is a message from ADP, Inc. One ADP Boulevard, Roseland, NJ 07068.</p>
+						</td>
+						<td align="center" class="mobile-hide" style="line-height: 1px; font-size:1px; width: 24px;" width="24">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

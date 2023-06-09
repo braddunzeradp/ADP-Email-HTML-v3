@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Detect Gmail" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* Specific Gmail detection */
+@media screen and (max-width:9999px) {
+				u + .gmailbody .fallback { display:block!important; max-height:none; }
+				u + .gmailbody .interactive { display:none!important; }
+				}	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

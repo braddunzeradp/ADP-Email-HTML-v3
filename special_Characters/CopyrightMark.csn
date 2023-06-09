@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CopyrightMark" description="" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<sup class="copyright" style="font-size:.5em;">&#169;</sup>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

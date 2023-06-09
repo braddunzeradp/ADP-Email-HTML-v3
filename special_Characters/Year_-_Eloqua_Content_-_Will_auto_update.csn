@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Year - Eloqua Content - Will auto update" description="Will update and display the current year if sent from Eloqua" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<span elqid="3395" elqtype="Section" class="remove-absolute" style="display: inline-block;font-size:10px">2018</span>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

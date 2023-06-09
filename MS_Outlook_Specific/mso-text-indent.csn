@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="mso-text-indent" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<p style="mso-text-indent-alt:50px">test</p>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

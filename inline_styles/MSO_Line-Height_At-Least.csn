@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="MSO Line-Height At-Least" description="add to <td> containing an Img" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[mso-line-height-rule:at-least]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

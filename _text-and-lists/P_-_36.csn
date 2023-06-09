@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="P - 36" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<p style="font-size:2em;">Paragraph text element 36px</p>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

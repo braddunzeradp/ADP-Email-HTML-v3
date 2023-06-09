@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Trademark" description="" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<sup class="trademark" style="font-size:.5em;">&#8482;</sup>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

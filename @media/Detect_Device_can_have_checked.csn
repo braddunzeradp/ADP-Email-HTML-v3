@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Detect Device can have checked" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* Test to see if device has the ability to have checked */
+@media only screen and (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio:0) {
+#webkitnocheck:checked ~ .fallback { display:none; }
+#webkitnocheck:checked ~ div .interactive { display:block !important; max-height:none !important; }
+				]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Quote-BGWhite" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START ONE COLUMN Quote --> 				
+  <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td style="mso-padding-alt: 0em 1em 1em 1em;padding: 0em 0em 1em 0em;">
+      <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+        <tr>
+         <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+			<td align="center" bgcolor="#F15C22" width="5" style="width: 5px;background-color: #F15C22;">&nbsp;</td>
+          <td class="col" bgcolor="#f3e8df" align="left" width="500" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 500px;mso-padding-alt: 0em 1em 0em 1em;padding: 0em 1em 0em 1em;">
+			<p style="font-size:1.2em;">This is for a standalone quote blade. Do not use this inside of another blade as it has margins on the left and right</p> 
+          </td> 
+          <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table> 
+<!-- END ONE COLUMN Quote -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

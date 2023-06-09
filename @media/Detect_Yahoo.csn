@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Detect Yahoo" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* Specific Yahoo! Detection */
+@media screen yahoo {
+				.fallback { display:block!important; max-height:none; }
+				.interactive { display:none !important; }
+				}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

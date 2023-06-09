@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Registration Mark" description="" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<sup class="registration" style="font-size:.5em;">&#174;</sup>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

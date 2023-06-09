@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Img-NoScale" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<img src="https://placehold.co/264x200/0041dc/FFFFFF/png" width="264" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 264px;">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

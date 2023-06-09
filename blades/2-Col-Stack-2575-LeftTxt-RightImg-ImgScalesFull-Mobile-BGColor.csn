@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-Stack-25/75-LeftTxt-RightImg-ImgScalesFull-Mobile-BGColor" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START TWO COLUMN 25/75 COLOR BACK FULL WIDTH PADDING ON LEFT AND RIGHT --> 
+         
+  <table bgcolor="#7967ae" style="background-color:#7967ae;" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+  <tr class="mobile-hide">
+   <td width="24" style="width:24px;">&nbsp;</td>
+    <td>&nbsp;<!-- top margin row --> </td>
+     <td width="24" style="width:24px;">&nbsp;</td>
+	</tr>
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>
+    <!-- Start Right Column with IMAGE and Text -->
+       <table class="col-img" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 164px;" width="164">
+        <tr>
+	        <td class="col-img" align="center" width="164" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 164px;" >
+                <table class="col-img" cellpadding="0" cellspacing="0" role="presentation" width="164" align="center" style="width: 164px;">
+                  <tr>
+                    <td class="col-img" align="center" width="164" style="mso-line-height-rule:at-least;" >
+                        <img class="img-scale" src="https://placehold.co/164x164/0041dc/FFFFFF/png" width="164" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 164px;">
+                      </td>
+                  </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+    <!-- END Right Column with IMAGE and Text --> 
+    
+    
+   
+    
+    <!-- Start left Column with IMAGE and Text -->
+       <table class="col" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 364px;" width="364">
+        <tr>
+	        <td class="col" align="center" width="364" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 364px;" >
+        <table class="col" cellpadding="0" cellspacing="0" role="presentation" width="364" align="left" style="width: 364px;">
+            <tr>
+               <td class="col pt-sm-16" align="left" width="364" style="mso-line-height-rule:at-least;width: 364px;mso-padding-alt: 0em 1em 1em 1em;padding: 0em 1em 1em 1em;">
+                   <p style="font-size:1em;color:#ffffff;">Paragraph text element</p>
+              </td>
+            </tr>
+        </table>
+          
+           
+          </td>
+        </tr>
+      </table>
+    <!-- END left Column with IMAGE and Text -->  
+       
+
+    </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+  </tr>
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>&nbsp;<!-- bottom margin row --> </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+	</tr>
+</table> 
+<!-- END TWO COLUMN 25/75 FULL WIDTH PADDING ON LEFT AND RIGHT --> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

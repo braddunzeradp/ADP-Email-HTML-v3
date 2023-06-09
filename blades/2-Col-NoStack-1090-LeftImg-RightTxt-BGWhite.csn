@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-NoStack-10/90-LeftImg-RightTxt-BGWhite" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!-- START TWO COLUMN 10/90 FULL WIDTH IMAGE ON LEFT --> 
+<table bgcolor="#ffffff" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#ffffff;" width="100%">
+	<tr>
+		<td class="mob-hide" style="width:24px;" width="24">&nbsp;</td>
+		<td>&nbsp;<!-- top margin row --></td>
+		<td class="mob-hide" style="width:24px;" width="24">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="mob-hide" style="width:24px;" width="24">&nbsp;</td>
+		<td>
+           <table cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+               <td style="width:65px;mso-line-height-rule:at-least;" width="65">
+                   <img alt="" src="https://placehold.co/65x65/0041dc/FFFFFF/png" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 65px;" width="65"></td>
+               <td style="width:24px;" width="24">&nbsp;</td>
+                <td>
+				<p style="font-size:1.11em;">Paragraph text element 20px</p>
+				<ul>
+					<li style="mso-margin-top-alt:0">First Bullet has special style for top margin in Outlook</li>
+					<li>ADP</li>
+					<li>ADP</li>
+					</ul><div class="listfixer" style="font-size:1px;line-height: 1px;clear:both;">&nbsp;</div><!-- prevents extra bullet from showing up -->	
+				</td>
+               </tr>
+            </table> 
+		</td>
+		<td class="mob-hide" style="width:24px;" width="24">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="mob-hide" style="width:24px;" width="24">&nbsp;</td>
+		<td>&nbsp;<!-- bottom margin row --></td>
+		<td class="mob-hide" style="width:24px;" width="24">&nbsp;</td>
+	</tr>
+</table>
+<!-- END TWO COLUMN 10/90 FULL WIDTH IMAGE ON LEFT -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

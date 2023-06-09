@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Text link default (Blue #2f6cfe)" description="" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<a class="link-blue" style="text-decoration: underline; color: #2f6cfe;font-weight: 600;" href="#" ><span class="link-blue-inner" style="color: #2f6cfe; text-decoration: underline;font-weight: 600;">blue text default - use descriptive text</span></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

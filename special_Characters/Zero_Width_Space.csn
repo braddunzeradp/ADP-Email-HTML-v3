@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Zero Width Space" description="used in instances where you want to fool Gmail and Outlook by breaking words up...dates, days of week, times etc...stops auto underlining ">
+<insertText location="beforeSelection">
+<![CDATA[&#8203;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

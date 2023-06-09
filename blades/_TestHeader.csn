@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="_TestHeader" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="viewonline" width="100%">
+	<tbody>
+		<tr>
+			<td class="elq-footer" style="text-align: center;">
+			<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="elq-footer-fixed" style="margin: 0 auto;" width="600">
+				<tbody>
+					<tr>
+						<td style="text-align: center;line-height:12px;mso-line-height-rule:at-least;padding: 0;margin: 0;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="elq-footer-text" style="text-align: center;line-height:12px;mso-line-height-rule:at-least;">
+							<p><a class="adphflinks" href="https://app.adpinfo.com/e/es?s=~~eloqua..type--emailfield..syntax--siteid..encodeFor--url~~&e=~~eloqua..type--emailfield..syntax--elqemailsaveguid..encodeFor--url~~&elqTrackId=90b187ebb36641aeaf691a30f7fa4622" style="text-decoration:underline; color:#333333;font-size: 10px;line-height:12px;"><span style="text-decoration:underline; color:#333333;font-size: 10px;line-height:12px;" >If you are having trouble reading this email, read the online version</span></a></p></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

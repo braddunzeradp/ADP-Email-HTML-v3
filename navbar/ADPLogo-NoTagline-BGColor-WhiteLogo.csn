@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ADPLogo-NoTagline-BGColor-WhiteLogo" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START nav bar top -->
+ <table bgcolor="#7967AE" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+          <tr><td width="24" style="line-height: 1px; font-size:1em; width: 24px;">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr>
+         <td  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;">
+             <img src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B2993eaee-a3b0-4f51-bc8f-d993c6a454e5%7D_adp_no-tag_wh_70px_%402x.png" width="70" alt="ADP Logo" style="max-width: 70px; width: 70px; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;">
+          </td> 
+          <td  align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+        </tr>
+        <tr><td  width="24" style="line-height: 1px; font-size:1em; width: 24px;">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>  
+      </table>
+    </td>
+  </tr>
+</table> 
+<!-- END nav bar top -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

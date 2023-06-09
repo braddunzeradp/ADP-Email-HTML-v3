@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Cool Grey - #54565a" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#54565a]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
