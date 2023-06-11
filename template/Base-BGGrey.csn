@@ -33,7 +33,8 @@ GD:
 		.elq-footer-fixed {background-color:#999999 !important; padding-left: 20px; padding-right:20px; padding-bottom: 20px;}
 		.elq-footer-fixed p  {line-height:14px !important;} 
 		.elq-footer p {line-height:14px !important;}  
-		.elq-footer-text, .elq-footer-text a {font-size:10px!important;} 
+		.elq-footer-text, .elq-footer-text a, .elq-footer-text-email, .elq-footer-text-email a {font-size:10px!important;}
+		.elq-footer-text-email a {text-decoration: none !important;}
 			/*do not modify below classes*/
 		@media screen and (max-width: 600px) {
 		u ~ div .elq-footer {background-color:#FFFFFF!important;}
@@ -117,7 +118,9 @@ a.link-inherit:hover {text-decoration: underline;color:inherit;}
 .list-flush-left li {margin-left: -1.2em;}
 .footer-text{font-size:.55em;}
 .od-footer a {font-size:.55em !important;mso-line-height-rule:at-least !important;}
-	
+.copyright, .registration, .trademark, .footnote, .footnote a {font-family: sans-serif !important;}
+.footnote a {text-decoration: none !important;color:#222222;font-size:.75em;}	
+ 		
 
 </style>
 		
@@ -199,6 +202,8 @@ u + #body a {color: inherit;text-decoration: none;font-size: inherit;font-family
 	
 @media only screen {
 table, td, th, div, p, span, a,h1,h2,h3,h4,h5,h6 {font-family:'ADP Taub','Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif!important;}
+
+.col3-spacer {box-sizing: border-box; min-width: auto!important;width:24px!important;}	
 	
 
 .col-img290 {max-width:290px!important;width:290px!important;min-width: 290px!important;margin:0 auto!important;}
@@ -208,10 +213,7 @@ table, td, th, div, p, span, a,h1,h2,h3,h4,h5,h6 {font-family:'ADP Taub','Taub S
 .col-img170 {max-width:170px!important;width:170px!important;min-width: 170px!important;margin:0 auto!important;}
 .col-img140 {max-width:140px!important;width:140px!important;min-width: 140px!important;margin:0 auto!important;}	
 .col-168 {max-width:168px!important;width:168px!important;min-width: 168px!important;margin:0 auto!important;}
-.copyright, .registration, .trademark, .footnote, .footnote a {font-family: sans-serif!important;}
-.footnote a {color: inherit!important;text-decoration: none!important;}
-.footnote a {font-size:.75em;}
-.col3-spacer {box-sizing: border-box; min-width: auto!important;width:24px!important;}	
+	
 }	
 	
 		
@@ -341,7 +343,7 @@ u ~ div .wrapper {min-width: 100vw;}
 		.adphflinks {font-size:10px !important;}
 		span.MsoHyperlinkFollowed { mso-style-priority:99; color:#FFFFFF; }
 		sup {mso-text-raise:.6em;}
-		.footnote-link{text-decoration:none !important;color:#222222 !important;mso-text-raise:.1em !important;}
+		.footnote a{text-decoration:none !important;color:#222222 !important;mso-text-raise:.1em !important;font-family:sans-serif;}
 		
     </style>
     <![endif]-->       
@@ -386,7 +388,6 @@ u ~ div .wrapper {min-width: 100vw;}
 				
 				
 				
-				
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD TABLES - ALL CONENT ABOVE THIS LINE /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->			
 							
@@ -394,11 +395,8 @@ u ~ div .wrapper {min-width: 100vw;}
  <table id="footer" bgcolor="#121c4e" role="presentation" class="footer-table-dark" align="center" cellpadding="0" cellspacing="0" width="100%" style="background-color:#121c4e;">
   <tr>
     <td style="mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
-		<ol style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;">
-		<li>footnote item</li>
-		<li>footnote item</li>	
-		</ol>
-      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;text-align: center;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
+		
+      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;text-align: center;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;2023&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
       </p>
 		<!-- do not remove below -->
     </td>
