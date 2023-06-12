@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="OneUX" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<title>ADP Email</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+	
+<style id="Reset Styles">
+table, td { border-collapse: collapse; }
+body { margin: 0 auto; padding: 0; width: 100% ; }
+h1, h2, h3, h4, h5, h6 {margin:0;padding: 0;}
+li {text-align:-webkit-match-parent; display:list-item;margin-bottom: 5px;}
+p {margin-top:.5em;margin-bottom:.8em;}
+ul {margin-top:.5em;margin-bottom:.5em;}	
+</style>	
+	
+<style id="Typography">	
+table,td,th,p,div,span,li {font-size: 1em; color: #222222;}
+td, th {vertical-align: top;line-height: 24px!important;}	
+
+table,td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family:'Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif !important; word-wrap: break-word; word-break: normal; hyphens: none;-moz-hyphens: none; -webkit-hyphens: none; -ms-hyphens: none;}
+a {text-decoration: underline;}	
+
+</style>
+	
+<style id="button">
+	.btn-navy a:hover{background-color:#0041dc!important;border-color:#0041dc!important;}
+	.btn-navy a:visited{background-color:#26328C!important;border-color:#26328C!important;}
+	
+</style>	
+	
+  <style>
+  
+    @media screen and (max-width: 530px) {
+		.col {padding:0!important;}
+      .footer-link {
+        text-align: center;
+        font-size: 1em;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: normal;
+        border-radius: .5em .5em .5em .5em;
+        padding: .5em 1em;
+        color: #324fa5;
+        border: 2px solid #476bc3;
+        display: inline-block;
+        background-color: transparent
+      }
+
+      .button {
+        box-sizing: border-box;
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+	
+ <style id="Gmail Overrides">
+	@media screen and (max-width: 480px) {
+		u ~ div .wrapper {background-color:#ffffff!important;}
+		u ~ div .mobile-hide {display: none!important;}  
+	}
+</style>
+	
+ <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+
+	
+<style id="DarkMode">
+    :root {color-scheme:light dark; supported-color-schemes:light dark;} 
+      /*target-ios*/
+    @media (prefers-color-scheme: dark) {
+        table, td, th,p,div,li,h1,h2,h3,h4,h5.h6 {color:#ffffff;}
+ 
+    }
+</style>	
+	
+	
+	</head>
+
+<body id="body" class="body" xml:lang="en" style="box-sizing:border-box;margin:0;padding:0;width:100%;word-break:break-word;-webkit-font-smoothing:antialiased;">
+<div role="article" aria-roledescription="email" aria-label="email name" lang="en" dir="ltr" style="font-size:medium; font-size:max(18px, 1em)">
+ <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+    style="width: 100%; background-color: #f0f0f0; ">
+    <tbody>
+      <tr>
+        <td> 
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+  <td width="600">
+  <![endif]-->	
+
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+    style="width: 100%; background-color: #f0f0f0; ">
+    <tbody>
+      <tr>
+        <td
+          style="text-align:left; box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px; border-collapse:collapse !important; vertical-align: top; display: block; margin: auto; max-width: 600px; width: 94%; margin:0px auto !important;">
+          <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+            <tr>
+              <td class="col"
+                style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; display: block;mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
+                <img alt="ADP Logo" src="https://netsecure.adp.com/communication-ui/inc/images/adp_logo.png"
+                  style="box-sizing: border-box; border: none; outline: none; text-decoration: none; max-width: 100%;mso-margin-top-alt:1em;mso-margin-bottom-alt:1em;margin-top:1em;margin-bottom:1em;"
+                  >
+                <table role="presentation"
+                  style="width:100%;box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px;   border-radius: .5em .5em .5em .5em; background-color: #fff; box-shadow: 0 2px 4px -1px #f0f0f0,0 4px 6px -1px #e5e5e5; border: 1px solid #f2f0ed;">
+                  <tbody >
+                    <tr >
+                      <td
+                        style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px; border-collapse:collapse !important; font-family: sans-serif; font-size: 1em; vertical-align: top; mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                          style="width:100%;box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px;">
+                          <tbody >
+                            <tr >
+                              <td
+                                style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px; border-collapse:collapse !important;  vertical-align: top;">
+                                <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                  <tr>
+                                    <td
+                                      style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; ">
+										
+										<!-- START CONTENT AREA  -->
+                                      <h1
+                                        style="mso-margin-top-alt:0em;mso-margin-bottom-alt:1em;margin-top:0em;margin-bottom:1em; font-size: 1.3em; font-weight: 600; line-height:28px;">
+                                        New Pay Statement Available</h1>
+                                      <p
+                                        style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.5em; font-size: 1em; mso-margin-bottom-alt:1em;margin-bottom:1em;">
+                                        Your new pay statement for pay date April 17th, 2020 is now available.</p>
+                                      <!-- Start Button-->
+											<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="mso-margin-bottom-alt:1em;margin-bottom:1em;">
+												<tr>
+													<td align="left" >			  
+														<table class="btn-navy" role="presentation" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td align="center" style="border-radius: 0; background-color: #476bc3;">
+																	<a  href="#" style="color: #ffffff; text-decoration: none;border-radius: 0; padding: 12px 18px; border: 1px solid #476bc3; display: inline-block;"><span style="color: #ffffff; text-decoration: none;">Add descriptive text</span></a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<!-- End Button-->	
+										
+										
+                                      <p
+                                        style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.5em; font-size: 1em; mso-margin-bottom-alt:1em;margin-bottom:1em;">
+                                        Your pay statement will be available to you on this site for three years. If you
+                                        wish to
+                                        retain your pay statement for a longer period, you may print or save the
+                                        electronic
+                                        copy.</p>
+										
+										<ul>
+										<li>item</li>
+										<li>item</li>
+										<li>item</li>
+										</ul>
+										
+										<ol>
+										<li>item</li>
+										<li>item</li>
+										<li>item</li>
+										</ol>
+										
+										<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="mso-margin-bottom-alt:1em;margin-bottom:1em;">
+												<tr>
+													<td align="left" >			  
+														<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td align="center" style="background-color: #eef4fe;">
+																	<p style="color: #000000; padding: 5px 18px; border: 1px solid #eef4fe; display: inline-block;"><strong>CODE NUMBER</strong></p>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										
+											<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="mso-margin-bottom-alt:1em;margin-bottom:1em;">
+												<tr><td align="center"><p>Your new code number is&nbsp; &nbsp;</p></td></tr>
+												<tr>
+													<td align="center" >			  
+														<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+															<tr><td></td></tr>
+															<tr>
+																<td align="center" style="background-color: #eef4fe;">
+																	<p style="color: #000000; padding: 5px 18px; border: 1px solid #eef4fe; display: inline-block;"><strong>XTA2246</strong></p>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										
+									<!-- STOP CONTENT AREA  -->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table cellpadding="0" cellspacing="0" border="0" role="presentation"
+                  style="width:100%;box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px; ">
+                  <tr>
+                    <td
+                      style="width:100%;box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; text-align: center;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                        style="width:100%;box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px; ">
+                        <tbody>
+                          <tr>
+                            <td
+                              style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; border-spacing: 0px; border-collapse:collapse !important; vertical-align: top; mso-padding-alt: 1em 0em 1em 0em;padding: 1em 0em 1em 0em; color: #999999; text-align: left;">
+                              <p
+                                style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.25em; font-size:.8em; color: #476bc3; text-align: left;">
+                                <a href="#"  class="footer-link" style="color: #324fa5;">Manage email notifications</a>
+                              </p>
+                              <p
+                                style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.25em; font-family: sans-serif; font-size:.8em !important; font-weight: normal; margin: 0px 0px 1em; color: #544e4a; text-align: left; ">
+                                The email is sent from an automated system so please do not reply. ${TrackingID}
+                                <br style="box-sizing: border-box;">ADP and the ADP logo are trademarks of ADP, Inc. &copy;2023 ADP, Inc.
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+	
+	 <!--[if (gte mso 9)|(IE)]>
+          </td>
+<![endif]-->
+    </td>
+
+      </tr>
+    </tbody>
+  </table>	
+	
+	
+	  </div>
+</body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

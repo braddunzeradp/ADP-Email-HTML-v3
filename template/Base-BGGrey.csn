@@ -395,7 +395,7 @@ u ~ div .wrapper {min-width: 100vw;}
  <table id="footer" bgcolor="#121c4e" role="presentation" class="footer-table-dark" align="center" cellpadding="0" cellspacing="0" width="100%" style="background-color:#121c4e;">
   <tr>
     <td style="mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
-		
+		<h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>
       <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;text-align: center;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;2023&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
       </p>
 		<!-- do not remove below -->
