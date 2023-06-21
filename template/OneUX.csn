@@ -35,13 +35,17 @@ a {text-decoration: underline;}
 <style id="button">
 	.btn-navy a:hover{background-color:#0041dc!important;border-color:#0041dc!important;}
 	.btn-navy a:visited{background-color:#26328C!important;border-color:#26328C!important;}
-	
+	/*outlook.com target*/
+	[class~="x_btn"] {padding: 10px;}
 </style>	
 	
   <style>
-  
+	  @media screen and (max-width: 700px) {
+		  .col {padding:0!important;width: 100%!important;}
+		  
+	  }
     @media screen and (max-width: 530px) {
-		.col {padding:0!important;}
+		.col {padding:0!important;width: 100%!important;}
       .footer-link {
         text-align: center;
         font-size: 1em;
@@ -86,7 +90,8 @@ a {text-decoration: underline;}
     :root {color-scheme:light dark; supported-color-schemes:light dark;} 
       /*target-ios*/
     @media (prefers-color-scheme: dark) {
-        table, td, th,p,div,li,h1,h2,h3,h4,h5.h6 {color:#ffffff;}
+        table, td, th,p,div,li,h1,h2,h3,h4,h5,h6 {color:#00000f !important;}
+		.wrapper {background:#FCFCFC !important;}
  
     }
 </style>	
@@ -102,9 +107,9 @@ a {text-decoration: underline;}
       <tr>
         <td> 
 <!--[if (gte mso 9)|(IE)]>
-<table width="600" align="center">
+<table width="650" align="center">
 <tr>
-  <td width="600">
+  <td width="650">
   <![endif]-->	
 
   <table border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -112,7 +117,7 @@ a {text-decoration: underline;}
     <tbody>
       <tr>
         <td
-          style="text-align:left; box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px; border-collapse:collapse !important; vertical-align: top; display: block; margin: auto; max-width: 600px; width: 94%; margin:0px auto !important;">
+          style="text-align:left; box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px; border-collapse:collapse !important; vertical-align: top; display: block; margin: auto; max-width: 650px; width: 94%; margin:0px auto !important;">
           <table cellpadding="0" cellspacing="0" border="0" role="presentation">
             <tr>
               <td class="col"
@@ -120,8 +125,8 @@ a {text-decoration: underline;}
                 <img alt="ADP Logo" src="https://netsecure.adp.com/communication-ui/inc/images/adp_logo.png"
                   style="box-sizing: border-box; border: none; outline: none; text-decoration: none; max-width: 100%;mso-margin-top-alt:1em;mso-margin-bottom-alt:1em;margin-top:1em;margin-bottom:1em;"
                   >
-                <table role="presentation"
-                  style="width:100%;box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px;   border-radius: .5em .5em .5em .5em; background-color: #fff; box-shadow: 0 2px 4px -1px #f0f0f0,0 4px 6px -1px #e5e5e5; border: 1px solid #f2f0ed;">
+                <table class="wrapper" role="presentation"
+                  style="width:100%;box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%;  border-spacing: 0px;   border-radius: .5em .5em .5em .5em; background-color: #FCFCFC; box-shadow: 0 2px 4px -1px #f0f0f0,0 4px 6px -1px #e5e5e5; border: 1px solid #f2f0ed;">
                   <tbody >
                     <tr >
                       <td
@@ -137,81 +142,180 @@ a {text-decoration: underline;}
                                     <td
                                       style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; ">
 										
-										<!-- START CONTENT AREA  -->
+										<!-- /////////////// START CONTENT AREA \\\\\\\\\\\\\ -->
                                       <h1
                                         style="mso-margin-top-alt:0em;mso-margin-bottom-alt:1em;margin-top:0em;margin-bottom:1em; font-size: 1.3em; font-weight: 600; line-height:28px;">
                                         New Pay Statement Available</h1>
-                                      <p
-                                        style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.5em; font-size: 1em; mso-margin-bottom-alt:1em;margin-bottom:1em;">
+                                      <p style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.5em; font-size: 1em; mso-margin-bottom-alt:1em;margin-bottom:1em;">
                                         Your new pay statement for pay date April 17th, 2020 is now available.</p>
                                       <!-- Start Button-->
 											<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="mso-margin-bottom-alt:1em;margin-bottom:1em;">
 												<tr>
 													<td align="left" >			  
-														<table class="btn-navy" role="presentation" border="0" cellspacing="0" cellpadding="0">
+														<table role="presentation" border="0" cellspacing="0" cellpadding="0">
 															<tr>
-																<td align="center" style="border-radius: 0; background-color: #476bc3;">
-																	<a  href="#" style="color: #ffffff; text-decoration: none;border-radius: 0; padding: 12px 18px; border: 1px solid #476bc3; display: inline-block;"><span style="color: #ffffff; text-decoration: none;">Add descriptive text</span></a>
+																<td class="btn" align="center" style="border-radius:8px;background-color: #476bc3;">
+																	<a class="btn"  href="#" style="color: #ffffff; text-decoration: none; border-radius: 8px; padding: 12px 18px 12px 18px; border: 1px solid #476bc3; display: inline-block;"><span style="color: #ffffff; text-decoration: none;">Add descriptive text</span></a>
 																</td>
 															</tr>
 														</table>
 													</td>
 												</tr>
 											</table>
-											<!-- End Button-->	
+										<!-- End Button-->	
 										
-										
-                                      <p
-                                        style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.5em; font-size: 1em; mso-margin-bottom-alt:1em;margin-bottom:1em;">
+										<!--START Paragraph block-->
+                                      <p style="box-sizing: border-box; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; line-height: 1.5em; font-size: 1em; mso-margin-bottom-alt:1em;margin-bottom:1em;">
                                         Your pay statement will be available to you on this site for three years. If you
                                         wish to
                                         retain your pay statement for a longer period, you may print or save the
                                         electronic
                                         copy.</p>
 										
+										<!--END Paragraph block-->
+										
+										<!--START Bullet List-->
 										<ul>
 										<li>item</li>
 										<li>item</li>
 										<li>item</li>
 										</ul>
-										
+										<!--END Bullet List-->
+										<!--START Numbered List-->
 										<ol>
 										<li>item</li>
 										<li>item</li>
 										<li>item</li>
 										</ol>
+										<!--END Numbered List-->
 										
-										<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="mso-margin-bottom-alt:1em;margin-bottom:1em;">
+										<!--START Code Number Box -->
+										<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" >
 												<tr>
 													<td align="left" >			  
 														<table role="presentation" border="0" cellspacing="0" cellpadding="0">
 															<tr>
-																<td align="center" style="background-color: #eef4fe;">
-																	<p style="color: #000000; padding: 5px 18px; border: 1px solid #eef4fe; display: inline-block;"><strong>CODE NUMBER</strong></p>
+																<td align="center" style="background-color: #eef4fe;mso-padding-alt: .2em .5em 0em .5em;padding: .2em .5em 0em .5em;border-radius: 8px;">
+																	<p style="color: #000000;"><strong>CODE NUMBER</strong></p>
 																</td>
 															</tr>
 														</table>
 													</td>
 												</tr>
+											<tr><td>&nbsp;</td></tr>
 											</table>
+										<!--START Code Number Box -->
 										
-											<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="mso-margin-bottom-alt:1em;margin-bottom:1em;">
-												<tr><td align="center"><p>Your new code number is&nbsp; &nbsp;</p></td></tr>
+										<!--START Code Number Box with Text Above -->
+											<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" >
+												<tr><td align="left"><p>Your new code number is&nbsp; &nbsp;</p></td></tr>
 												<tr>
-													<td align="center" >			  
+													<td align="left" >			  
 														<table role="presentation" border="0" cellspacing="0" cellpadding="0">
-															<tr><td></td></tr>
 															<tr>
-																<td align="center" style="background-color: #eef4fe;">
-																	<p style="color: #000000; padding: 5px 18px; border: 1px solid #eef4fe; display: inline-block;"><strong>XTA2246</strong></p>
+																<td align="center" style="background-color: #eef4fe;mso-padding-alt: .2em .5em 0em .5em;padding: .2em .5em 0em .5em;border-radius: 8px;">
+																	<p style="color: #000000;"><strong>XTA2246</strong></p>
 																</td>
 															</tr>
 														</table>
 													</td>
 												</tr>
+												<tr><td>&nbsp;</td></tr>
 											</table>
+										<!--END Code Number Box with Text Above -->
 										
-									<!-- STOP CONTENT AREA  -->
+										<!--START TWO Column wrapper -->
+										<table align="left" width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" >
+											<tr><td>
+										<!--START LEFT Block -->
+										<table class="col" align="left" width="280" role="presentation" border="0" cellspacing="0" cellpadding="0" >
+											<tr><td><p>Tortor aliquam nulla facilisi cras fermentum odio eu</p></td></tr>
+												<tr>
+													<td align="left" style="mso-padding-alt: .5em .5em .5em .5em;padding: .5em .5em .5em .5em;background-color: #eef4fe;border-radius: 8px;">			  
+														<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td align="left">
+																	<p style="color: #000000;">left</p>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											<tr><td>&nbsp;</td></tr>
+											</table>
+										<!--END LEFT Block -->
+										<!--START RIGHT Block -->
+										<table class="col" align="right" width="280" role="presentation" border="0" cellspacing="0" cellpadding="0">
+											<tr><td><p>Tortor aliquam nulla facilisi cras fermentum odio eu</p></td></tr>	
+											<tr>
+													<td align="left" style="mso-padding-alt: .5em .5em .5em .5em;padding: .5em .5em .5em .5em;background-color: #eef4fe;border-radius: 8px;" >			  
+														<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td align="left">
+																	<p style="color: #000000;">right</p>
+																</td>
+															</tr>
+														</table>
+													</td>
+											</tr>
+											<tr><td>&nbsp;</td></tr>
+										</table>
+										<!--END RIGHT Block -->
+										</td></tr></table>
+										<!--END TWO Column wrapper -->
+										
+										<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" >
+											<tr>
+												<td align="left">
+													<p>Tortor aliquam nulla facilisi cras fermentum odio eu</p>
+												</td>
+											</tr>
+										</table>
+										
+										<!--START TWO Column wrapper -->
+										<table align="left" width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" >
+											<tr><td>
+										<!--START LEFT Block -->		
+										<table class="col" align="left" width="280" role="presentation" border="0" cellspacing="0" cellpadding="0" >
+												<tr>
+													<td align="left" style="mso-padding-alt: .5em .5em .5em .5em;padding: .5em .5em .5em .5em;background-color: #eef4fe;border-radius: 8px;">			  
+														<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td align="left">
+																	<p style="color: #000000;">left</p>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											<tr><td>&nbsp;</td></tr>
+											</table>
+										<!--END LEFT Block -->
+										<!--START RIGHT Block -->
+										<table class="col" align="right" width="280" role="presentation" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td align="left" style="mso-padding-alt: .5em .5em .5em .5em;padding: .5em .5em .5em .5em;background-color: #eef4fe;border-radius: 8px;" >			  
+														<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td align="left">
+																	<p style="color: #000000;">right</p>
+																</td>
+															</tr>
+														</table>
+													</td>
+											</tr>
+											<tr><td>&nbsp;</td></tr>
+										</table>
+										<!--END RIGHT Block -->		
+										</td></tr></table>
+										<!--END TWO Column wrapper -->
+										
+										
+										
+										
+										
+										
+									<!-- /////////////// STOP CONTENT AREA \\\\\\\\\\\\\ -->
                                     </td>
                                   </tr>
                                 </table>

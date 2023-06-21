@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Outlook-Beta-Target" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[@media (display-mode: standalone) {
+  [class~=""x_your-class-name""] {
+    /* Replace this comment with your styles */
+  }
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

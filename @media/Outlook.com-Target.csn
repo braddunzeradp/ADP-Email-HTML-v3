@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Outlook.com-Target" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[[class~="x_your-class-name"] {
+  /* Replace this comment with your styles */
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

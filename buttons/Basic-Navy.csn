@@ -7,8 +7,8 @@
 		<td align="center">			  
 			<table class="btn-navy" role="presentation" border="0" cellspacing="0" cellpadding="0">
 				<tr>
-					<td align="center" style="border-radius: 0; background-color: #26328C;">
-						<a  href="#" style="color: #ffffff; text-decoration: none;border-radius: 0; padding: 12px 18px; border: 1px solid #26328C; display: inline-block;"><span style="color: #ffffff; text-decoration: none;">Add descriptive text</span></a>
+					<td align="center" style="border-radius: 0; background-color: #121c4e;">
+						<a  href="#" style="color: #ffffff; text-decoration: none;border-radius: 0; padding: 12px 18px; border: 1px solid #121c4e; display: inline-block;"><span style="color: #ffffff; text-decoration: none;">Add descriptive text</span></a>
 					</td>
 				</tr>
 			</table>

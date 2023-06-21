@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Basic-Blue" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- Start Button-->
+<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+		<td align="center">			  
+			<table class="btn-blue" role="presentation" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center" style="border-radius: 0; background-color: #26328C;">
+						<a  href="#" style="color: #ffffff; text-decoration: none;border-radius: 0; padding: 12px 18px; border: 1px solid #26328C; display: inline-block;"><span style="color: #ffffff; text-decoration: none;">Add descriptive text</span></a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- End Button-->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

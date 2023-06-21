@@ -125,8 +125,12 @@ a.link-inherit:hover {text-decoration: underline;color:inherit;}
 </style>
 		
 <style id="button">
-	.btn-navy a:hover{background-color:#0041dc!important;border-color:#0041dc!important;}
-	.btn-navy a:visited{background-color:#26328C!important;border-color:#26328C!important;}
+	.btn-blue a:hover{background-color:#0041dc!important;border-color:#0041dc!important;}
+	.btn-blue a:visited{background-color:#26328C!important;border-color:#26328C!important;}
+	.btn-navy a:hover{background-color:#1e308a!important;border-color:#1e308a!important;}
+	.btn-navy a:visited{background-color:#121c4e!important;border-color:#121c4e!important;}
+	.btn-red a:hover{background-color:#f22e22!important;border-color:#f22e22!important;}
+	.btn-red a:visited{background-color:#d0271d!important;border-color:#d0271d!important;}
 	.btn-navy-ol a:hover{background-color:#eef4fe!important;border-color:#0041dc!important;}
 	.btn-navy-ol a:visited{background-color:#eef4fe!important;border-color:#26328C!important;}
 </style>		
@@ -321,8 +325,11 @@ u ~ div .wrapper {min-width: 100vw;}
     :root {color-scheme:light dark; supported-color-schemes:light dark;} 
       /*target-ios*/
     @media (prefers-color-scheme: dark) {
-        table, td, th,p,div,li {color:#ffffff;}
-        .white-txt {color:#ffffff;}
+        table, td, th,p,div,li {color:#00000f !important;}
+		.container{background:#FCFCFC !important;}
+        .white-txt{color:#FCFCFC !important;}
+		.footer-table-dark {background:#999999 !important;}
+		
     }
 </style>
     
@@ -352,17 +359,16 @@ u ~ div .wrapper {min-width: 100vw;}
 		
     </head>
     <body id="body" class="body" xml:lang="en" style="box-sizing:border-box;margin:0;padding:0;width:100%;word-break:break-word;-webkit-font-smoothing:antialiased;">
-
         <table role="article" aria-roledescription="email" aria-label="an email from adp" class="wrapper elq-locked" bgcolor="#999999" cellpadding="16" cellspacing="0" width="100%" style="mso-padding-alt: 16px 16px 16px 16px;mso-cellspacing:0;" lang="en" dir="ltr">
             <tr>
             <td align="center">
-            <table role="presentation"  class="container" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" width="600" style="width: 600px; font-size:medium; font-size:max(18px, 1rem);" >
+            <table role="presentation"  class="container" bgcolor="#FCFCFC" cellpadding="0" cellspacing="0" width="600" style="width: 600px; font-size:medium; font-size:max(18px, 1rem);" >
             <tr>
             <td  align="left">
 
 <!--  ADD NAV TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
 <!--  /--------------------------------------------------------------------------/ -->
-
+<span elqid="6859" elqtype="Section" class="remove-absolute" style="display: block"></span>
 	   <!-- START nav bar top -->
  <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
   <tr>
@@ -386,7 +392,7 @@ u ~ div .wrapper {min-width: 100vw;}
 <!--  ADD CONTENT TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
 <!--  /--------------------------------------------------------------------------/ -->
 				
-				
+	
 				
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD TABLES - ALL CONENT ABOVE THIS LINE /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->			
@@ -395,15 +401,18 @@ u ~ div .wrapper {min-width: 100vw;}
  <table id="footer" bgcolor="#121c4e" role="presentation" class="footer-table-dark" align="center" cellpadding="0" cellspacing="0" width="100%" style="background-color:#121c4e;">
   <tr>
     <td style="mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
-		<h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>
-      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;text-align: center;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;2023&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
+<h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
+<ol class="" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;">
+		<li>footnote item</li>
+		<li>footnote item</li>	
+		</ol>
+      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;text-align: center;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
       </p>
-		<!-- do not remove below -->
     </td>
   </tr>
 </table>
 <!-- END ROW footer -->
-				
+<span elqid="6860" elqtype="Section" class="remove-absolute" style="display: block"></span>				
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD FOOTER TABLE -  /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
  
