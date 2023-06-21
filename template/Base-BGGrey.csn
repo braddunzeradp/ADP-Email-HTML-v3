@@ -2,7 +2,9 @@
 <snippet name="Base-BGGrey" description="" type="wrap">
 <insertText location="beforeSelection">
 <![CDATA[<!DOCTYPE html>
-<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!--code v3-->
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
@@ -11,7 +13,7 @@
         <meta name="color-scheme" content="light dark">
         <meta name="supported-color-schemes" content="light dark">
         <title><eloqua type="emailfield" syntax="elqWASubject" /></title>
-  
+ 
 <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 
 Campaign ID: <eloqua type="campaign" fieldname="id" />
