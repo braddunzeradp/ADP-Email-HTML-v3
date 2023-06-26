@@ -10,7 +10,7 @@
     <td>
     
     <!-- Start left Column with IMAGE and Text -->
-       <table class="col-img col-img288 pt-sm-24" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 288px;" width="288">
+       <table class="col-img l-align col-img288 pt-sm-24" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 288px;text-align: left;" width="288">
         <tr>
 	        <td class="col-img" align="center" width="288" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 288px;" >
         <table class="col-img col-img288" cellpadding="0" cellspacing="0" role="presentation" width="288" align="center" style="width: 288px;">
@@ -30,7 +30,7 @@
    
     
       <!-- Start Right Column with IMAGE and Text -->
-       <table class="show-style-support col-img col-img264 pt-sm-24" cellpadding="0" cellspacing="0" role="presentation"  align="right" style="min-width: auto; margin: 0 auto;width: 264px;display: none;" width="264">
+       <table class="show-style-support r-align col-img col-img264 pt-sm-24" cellpadding="0" cellspacing="0" role="presentation"  align="right" style="min-width: auto; margin: 0 auto;width: 264px;display: none;text-align: right;" width="264">
         <tr>
 	        <td class="col-img" align="center" width="264" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 264px;" >
                 <table class="col-img col-img264" cellpadding="0" cellspacing="0" role="presentation" width="264" align="center" style="width: 264px;">
@@ -51,7 +51,7 @@
   </tr>
   
 </table> 
-<!-- END TWO COLUMN RIGHT COLUMN HIDES -->]]>
+<!-- END TWO COLUMN RIGHT COLUMN HIDES --> ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
