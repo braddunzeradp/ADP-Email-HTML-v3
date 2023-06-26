@@ -3,8 +3,7 @@
 <insertText location="beforeSelection">
 <![CDATA[<!DOCTYPE html>
 <html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-<!--code v3-->
-<head>
+<!--code v3--><head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
@@ -52,6 +51,10 @@ GD:
             @media screen and (max-width: 480px) {
                 u ~ div .wrapper {background-color:#ffffff!important;}
                 u ~ div .mobile-hide {display: none!important;}  
+				u ~ div .show-style-support{display: none!important;}
+				u ~ div .show-media-support{display: block!important;}
+				u ~ div .l-align {float:none;}
+				u ~ div .r-align {float:none;}
             }
   	    </style>
         
@@ -154,7 +157,6 @@ a.link-inherit:hover {text-decoration: underline;color:inherit;}
 .footer-table-grey, .footer-table-grey li {color:#222222;}	
 .web-version {background-color:#eee;width:100%;}
 .web-version a {font-size:.55em;color:#da1e32;}
-
 /*.btn-spacer {font-size:.77em;line-height: 14px;letter-spacing: 6px;}*/
 .show-style-support{display:block!important;}
 	
@@ -187,7 +189,9 @@ a.link-inherit:hover {text-decoration: underline;color:inherit;}
 .py-8 {padding-top: .5em!important; padding-bottom: .5em!important;mso-padding-top-alt:.5em!important;mso-padding-bottom-alt:.5em!important;}
 .py-16 {padding-top: 1em!important; padding-bottom: 1em!important;mso-padding-top-alt:1em!important;mso-padding-bottom-alt:1em!important;}
 .py-24 {padding-top: 1.2em!important; padding-bottom: 1.2em!important;mso-padding-top-alt:1.2em!important;mso-padding-bottom-alt:1.2em!important;}
-.m-content {display: none !important;max-height: none !important; mso-hide: all !important;height: 0 !important;}	
+.m-content {display: none !important;max-height: none !important; mso-hide: all !important;height: 0 !important;}
+	.l-align {float:left;}
+	.r-align {float:right;}
 
 </style>
 
@@ -249,7 +253,9 @@ u ~ div .wrapper {min-width: 100vw;}
 .cell-scale-50 {width:125px!important;}	
 .cell-scale-50r {width:280px!important;}
 .col3innertop{width: 30%!important;float: left;}
-.col3innerbtm{width: 70%!important;}	
+.col3innerbtm{width: 70%!important;}
+.two-col-90-10-l{width: 75% !important;}
+.two-col-90-10-r{width: 25% !important;}	
 	
 .vspacer0 {font-size: 0!important; line-height: 0!important; }
 .vspacer8 {font-size: 8px!important; line-height: 8px!important; }
@@ -292,6 +298,9 @@ u ~ div .wrapper {min-width: 100vw;}
 .py-m-16 {padding-top: 1em!important; padding-bottom: 1em!important;}	
 .py-24 {padding-top: 1.2em!important; padding-bottom: 1.2em!important;}
 .m-content {display: block !important;width: auto !important;max-height: none !important;overflow: visible !important;height: 100% !important;}	
+	
+.l-align {float:none;}
+.r-align {float:none;}	
 }
 	
 	
@@ -368,10 +377,10 @@ u ~ div .wrapper {min-width: 100vw;}
             <table role="presentation"  class="container" bgcolor="#FCFCFC" cellpadding="0" cellspacing="0" width="600" style="width: 600px; font-size:medium; font-size:max(18px, 1rem);" >
             <tr>
             <td  align="left">
-
+<span elqid="6859" elqtype="Section" class="remove-absolute" style="display: block"></span>
 <!--  ADD NAV TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
 <!--  /--------------------------------------------------------------------------/ -->
-<span elqid="6859" elqtype="Section" class="remove-absolute" style="display: block"></span>
+
 	   <!-- START nav bar top -->
  <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
   <tr>
@@ -395,19 +404,20 @@ u ~ div .wrapper {min-width: 100vw;}
 <!--  ADD CONTENT TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
 <!--  /--------------------------------------------------------------------------/ -->
 		
-		
+ 
+
+				
 		
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD TABLES - ALL CONENT ABOVE THIS LINE /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->			
 
 					
-				
 <!-- START ROW Footer -->
  <table id="footer" bgcolor="#121c4e" role="presentation" class="footer-table-dark" align="center" cellpadding="0" cellspacing="0" width="100%" style="background-color:#121c4e;">
   <tr>
     <td style="mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
-<h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
-<ol style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;">
+	<h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
+		<ol style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#ffffff;">
 		<li>footnote item</li>
 		<li>footnote item</li>	
 		</ol>
@@ -417,10 +427,10 @@ u ~ div .wrapper {min-width: 100vw;}
   </tr>
 </table>
 <!-- END ROW footer -->
-<span elqid="6860" elqtype="Section" class="remove-absolute" style="display: block"></span>				
+			
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD FOOTER TABLE -  /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
- 
+ <span elqid="6860" elqtype="Section" class="remove-absolute" style="display: block"></span>	
               </td>
             </tr>
           </table>
