@@ -8,7 +8,7 @@
       <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
         <tr>
          <td align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
-          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;mso-padding-alt: 1em 1em 1em 1em;padding: 1em 0em 1em 0em;">
+          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;mso-padding-alt: 20px 0  20px 0;padding: 20px 0 20px 0;">
              <p style="font-size:1em;color: #fff;">Simple 1 Column layout with background color. This has 24px padding on left and right that does not hide on mobile to keep the text off the left and right edge.  </p>
 			  <p style="font-size:1em;color: #fff;">Use standard P and H tags for text. Use P tags from the snippets with applied styles with EM sizes.</p>
 			  <p style="font-size:1em;color: #fff;">Do not use &lt;br&gt; spacing. Use a new &lt;p&gt; tags for paragraph breaks</p>

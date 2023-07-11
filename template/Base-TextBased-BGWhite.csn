@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Base-BGGrey" description="" type="wrap">
+<snippet name="Base-TextBased-BGWhite" description="" type="wrap">
 <insertText location="beforeSelection">
 <![CDATA[<!DOCTYPE html>
 <html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -30,8 +30,8 @@ GD:
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->   
 		
 	<style id="Eloqua System Footer and Header">
-		.elq-footer {background-color:#999999 !important;}
-		.elq-footer-fixed {background-color:#999999 !important; padding-left: 20px; padding-right:20px; padding-bottom: 20px;}
+		.elq-footer {background-color:#FFFFFF !important;}
+		.elq-footer-fixed {background-color:#FFFFFF !important; padding-left: 20px; padding-right:20px; padding-bottom: 20px;}
 		.elq-footer-fixed p  {font-size:.75em !important;line-height:18px !important;} 
 		.elq-footer p {font-size:.75em !important;line-height:18px !important;}  
 		.elq-footer-text, .elq-footer-text a, .elq-footer-text-email, .elq-footer-text-email a {font-size:.75em!important;}
@@ -376,62 +376,62 @@ u ~ div .wrapper {min-width: 100vw;}
 		
     </head>
     <body id="body" class="body" style="box-sizing:border-box;margin:0;padding:0;width:100%;word-break:break-word;-webkit-font-smoothing:antialiased;">
-        <table role="article" aria-roledescription="email" aria-label="an email from adp" class="wrapper elq-locked" bgcolor="#999999" cellpadding="16" cellspacing="0" width="100%" style="mso-padding-alt: 16px 16px 16px 16px;mso-cellspacing:0;" lang="en" dir="ltr">
+        <table role="article" aria-roledescription="email" aria-label="an email from adp" class="wrapper elq-locked" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="100%" style="mso-padding-alt: 0 0 0 0;mso-cellspacing:0;" lang="en" dir="ltr">
             <tr>
             <td align="center">
-            <table role="presentation"  class="container" bgcolor="#FCFCFC" cellpadding="0" cellspacing="0" width="600" style="width: 600px;" >
+            <table role="presentation"  class="container" bgcolor="#FCFCFC" cellpadding="0" cellspacing="0" width="100%" style="width: 100%" >
             <tr>
             <td  align="left">
 <span elqid="6859" elqtype="Section" class="remove-absolute" style="display: block"></span>
 <!--  ADD NAV TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
 <!--  /--------------------------------------------------------------------------/ -->
 
-	   <!-- START nav bar top -->
- <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
-  <tr>
-    <td>
-      <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
-          <tr class="mobile-hide"><td width="24" style="line-height: 1px; font-size:1em; width: 24px;">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-        <tr>
-         <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
-          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;">
-             <img src="http://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B176754e1-1075-43ff-a721-41f002fbe002%7D_adp-70x32.png" width="70" alt="ADP Logo" style="max-width: 70px; width: 70px; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;">
-          </td> 
-          <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
-        </tr>
-        <tr><td class="mobile-hide" width="24" style="line-height: 1px; font-size:1em; width: 24px;">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>  
-      </table>
-    </td>
-  </tr>
-</table> 
-<!-- END nav bar top --> 			
+	  			
 
 <!--  ADD CONTENT TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
 <!--  /--------------------------------------------------------------------------/ -->
 		
- 		
+ <!-- START ONE COLUMN --> 				
+  <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td style="mso-padding-alt: 0 0 0 0;padding: 0 0 0 0;">
+      <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+        <tr>
+         <td class="mobile-hide" align="center" width="4" style="line-height: 1px; font-size:1px; width: 4px;">&nbsp;</td>
+          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;">
+			 <h1>H1 use only one per email</h1>
+             <p style="font-size:1em;">Simple 1 Column layout. This has 24px padding on left and right that will hide on mobile giving more screen to the content.  </p>
+			  <p style="font-size:1em;">Use standard P and H tags for text. Use P tags from the snippets with applied styles with EM sizes.</p>
+			  <p style="font-size:1em;">Do not use &lt;br&gt; spacing. Use a new &lt;p&gt; tags for paragraph breaks.</p>
+          </td> 
+          <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table> 
+<!-- END ONE COLUMN -->		
 	
 				
 		
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD TABLES - ALL CONENT ABOVE THIS LINE /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->			
 
-					
 <!-- START ROW Footer -->
- <table id="footer" bgcolor="#121c4e" role="presentation" class="footer-table-dark" align="left" cellpadding="0" cellspacing="0" width="100%" style="background-color:#121c4e;">
+ <table id="footer" role="presentation" class="footer-table-wht" align="center" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td style="mso-padding-alt: 24px 24px 24px 24px;padding: 24px 24px 24px 24px;">
+    <td class="px-m-0" style="color: #222222;background-color: #ffffff;mso-padding-alt: 24px 4px 4px 8px;padding: 24px 4px 4px 8px;text-align: left;">
 <h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
 <ol class="footer-list" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">
 		<li style="font-size:.75em;line-height: 18px;">footnote item </li>
 		<li style="font-size:.75em;line-height: 18px;">footnote item</li>	
 		</ol>
-      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .75em; line-height: 18px;color:#ffffff;text-align: left;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
+      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .75em; line-height: 18px;color:#222222;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
       </p>
     </td>
   </tr>
 </table>
-<!-- END ROW footer -->
+<!-- END ROW footer -->		
 						
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD FOOTER TABLE -  /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->

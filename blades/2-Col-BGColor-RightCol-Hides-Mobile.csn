@@ -15,7 +15,7 @@
 	        <td class="col-img" align="center" width="288" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 288px;" >
         <table class="col-img col-img288" cellpadding="0" cellspacing="0" role="presentation" width="288" align="center" style="width: 288px;">
             <tr>
-               <td class="col-img col-img288" align="left" width="288" style="mso-line-height-rule:at-least;width: 288px;padding-top:1em;padding-bottom:1em;mso-padding-top-alt:1em;mso-padding-bottom-alt:1em;" >
+               <td class="col-img col-img288" align="left" width="288" style="mso-line-height-rule:at-least;width: 288px;padding-top:20px;padding-bottom:20px;mso-padding-top-alt:20px;mso-padding-bottom-alt:20px;" >
                    <p style="font-size:1em;color:#ffffff;">Paragraph text element</p>
               </td>
             </tr>

@@ -4,7 +4,7 @@
 <![CDATA[<!-- START ONE COLUMN --> 				
   <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
   <tr>
-    <td style="mso-padding-alt: 0em 1em 1em 1em;padding: 0em 0em 1em 0em;">
+    <td style="mso-padding-alt: 0 0 20px 0;padding: 0 0 20px 0;">
       <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
         <tr>
          <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
@@ -20,7 +20,7 @@
     </td>
   </tr>
 </table> 
-<!-- END ONE COLUMN -->		]]>
+<!-- END ONE COLUMN -->]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

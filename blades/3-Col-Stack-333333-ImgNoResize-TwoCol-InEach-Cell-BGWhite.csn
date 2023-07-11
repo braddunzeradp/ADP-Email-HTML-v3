@@ -5,7 +5,7 @@
            
   <table  class="col-3" cellpadding="0" cellspacing="0" role="presentation" width="100%">
   <tr>
-    <td class="pt-d-16" style="mso-padding-alt: 1em 0em 1em 0em;padding: 0em 0em 1em 0em;">
+    <td class="pt-d-16" style="mso-padding-alt: 0 0 10px 0;padding: 0 0 10px 0;">
      <!-- Start Left Column --> 
     <!-- Start spacer in 3+ column layout -->
        <table class="col3-spacer" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="margin: 0;padding:0;width:24px;border-collapse: collapse;" width="24">
@@ -23,14 +23,14 @@
           <!-- start content text -->
 			  <table class="col3innertop" align="left" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;">
 				 <tr>
-					<td valign="top" style="vertical-align: top;mso-padding-alt: 0em ;padding: 0em;"  align="left" width="100%" >
+					<td valign="top" style="vertical-align: top;mso-padding-alt: 0 ;padding: 0;"  align="left" width="100%" >
 						<img src="https://placehold.co/168x100/0041dc/FFFFFF/png" width="168" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 168px;">
 					</td>
 				</tr>
 			  </table>
 			 <table class="col3innerbtm" align="right" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;">
 				 <tr>
-					<td valign="top" style="vertical-align: top;mso-padding-alt: 0em .5em 0em .5em;padding: 0em .5em 0em .5em;"  align="left" width="100%" >
+					<td valign="top" style="vertical-align: top;mso-padding-alt: 0 10px 0 10px;padding: 0 10px 0 10px;"  align="left" width="100%" >
 						<p style="font-size:1em;">Paragraph text element</p>
 					</td>
 				</tr>
@@ -61,14 +61,14 @@
 			   <!-- start content image -->
         <table class="col3innertop" align="left" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;">
 				 <tr>
-					<td valign="top" style="vertical-align: top;mso-padding-alt: 0em ;padding: 0em;"  align="left" width="100%" >
+					<td valign="top" style="vertical-align: top;mso-padding-alt: 0 ;padding: 0;"  align="left" width="100%" >
 						<img src="https://placehold.co/168x100/0041dc/FFFFFF/png" width="168" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 168px;">
 					</td>
 				</tr>
 			  </table>
 			 <table class="col3innerbtm" align="right" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;">
 				 <tr>
-					<td valign="top" style="vertical-align: top;mso-padding-alt: 0em .5em 0em .5em;padding: 0em .5em 0em .5em;"  align="left" width="100%" >
+					<td valign="top" style="vertical-align: top;mso-padding-alt: 0 10px 0 10px;padding: 0 10px 0 10px;"  align="left" width="100%" >
 						<p style="font-size:1em;">Paragraph text element</p>
 					</td>
 				</tr>
@@ -99,14 +99,14 @@
           <!-- start content text -->
 			  <table class="col3innertop" align="left" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;">
 				 <tr>
-					<td valign="top" style="vertical-align: top;mso-padding-alt: 0em ;padding: 0em;"  align="left" width="100%" >
+					<td valign="top" style="vertical-align: top;mso-padding-alt: 0 ;padding: 0;"  align="left" width="100%" >
 						<img src="https://placehold.co/168x100/0041dc/FFFFFF/png" width="168" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 168px;">
 					</td>
 				</tr>
 			  </table>
 			 <table class="col3innerbtm" align="right" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;">
 				 <tr>
-					<td valign="top" style="vertical-align: top;mso-padding-alt: 0em .5em 0em .5em;padding: 0em .5em 0em .5em;"  align="left" width="100%" >
+					<td valign="top" style="vertical-align: top;mso-padding-alt: 0 10px 0 10px;padding: 0 10px 0 10px;"  align="left" width="100%" >
 						<p style="font-size:1em;">Paragraph text element</p>
 					</td>
 				</tr>

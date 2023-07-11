@@ -2,20 +2,20 @@
 <snippet name="1-Col-Footer-BGLiteGrey" description="" type="wrap">
 <insertText location="beforeSelection">
 <![CDATA[<!-- START ROW Footer -->
- <table id="footer" bgcolor="#f7f6f4" role="presentation" class="footer-table-grey" align="center" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f7f6f4;">
+ <table id="footer" bgcolor="#f7f6f4" role="presentation" class="footer-table-grey" align="left" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f7f6f4;">
   <tr>
-    <td style="mso-padding-alt: 1em 1em 1em 1em;padding: 1em 1em 1em 1em;">
+    <td style="mso-padding-alt: 24px 24px 24px 24px;padding: 24px 24px 24px 24px;text-align: left;">
 <h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
-<ol style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#222222;">
-		<li>footnote item</li>
-		<li>footnote item</li>	
+<ol class="footer-list" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">
+		<li style="font-size:.75em;line-height: 18px;">footnote item </li>
+		<li style="font-size:.75em;line-height: 18px;">footnote item</li>	
 		</ol>
-      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .55em; line-height: 14px;color:#222222;text-align: center;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
+      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .75em; line-height: 18px;color:#222222;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
       </p>
     </td>
   </tr>
 </table>
-<!-- END ROW footer -->	]]>
+<!-- END ROW footer -->		]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

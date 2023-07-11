@@ -37,7 +37,7 @@
 	        <td class="col" align="center" width="364" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 364px;" >
         <table class="col" cellpadding="0" cellspacing="0" role="presentation" width="364" align="left" style="width: 364px;">
             <tr>
-               <td class="col pt-sm-16" align="left" width="364" style="mso-line-height-rule:at-least;width: 364px;mso-padding-alt: 0em 1em 1em 1em;padding: 0em 1em 1em 1em;">
+               <td class="col pt-sm-16" align="left" width="364" style="mso-line-height-rule:at-least;width: 364px;mso-padding-alt: 0 20px 20px 20px;padding: 0 20px 20px 20px">
                    <p style="font-size:1em;color:#ffffff;">Paragraph text element</p>
               </td>
             </tr>
@@ -59,7 +59,7 @@
      <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
 	</tr>
 </table> 
-<!-- END TWO COLUMN 25/75 FULL WIDTH PADDING ON LEFT AND RIGHT --> ]]>
+<!-- END TWO COLUMN 25/75 FULL WIDTH PADDING ON LEFT AND RIGHT -->]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
