@@ -96,8 +96,8 @@ body { margin: 0 auto; padding: 0; width: 100% ; }
 h1, h2, h3, h4, h5, h6 {margin:0;padding: 0;}
 .spacer, .divider {mso-line-height-rule:exactly; overflow: hidden; vertical-align: middle;}
 li {text-align:-webkit-match-parent; display:list-item;margin-bottom:5px;}
-p {margin-top:5px;margin-bottom:5px;}
-ul {margin-top:5px;margin-bottom:5px;}	
+p {margin-top:8px;margin-bottom:14px;}
+ul {margin-top:8px;margin-bottom:8px;}	
 </style>
 		
 
@@ -397,34 +397,31 @@ u ~ div .wrapper {min-width: 100vw;}
     <td style="mso-padding-alt: 0 0 0 0;padding: 0 0 0 0;">
       <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
         <tr>
-         <td class="mobile-hide" align="center" width="4" style="line-height: 1px; font-size:1px; width: 4px;">&nbsp;</td>
-          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;">
-			 <h1>H1 use only one per email</h1>
-             <p style="font-size:1em;">Simple 1 Column layout. This has 24px padding on left and right that will hide on mobile giving more screen to the content.  </p>
-			  <p style="font-size:1em;">Use standard P and H tags for text. Use P tags from the snippets with applied styles with EM sizes.</p>
-			  <p style="font-size:1em;">Do not use &lt;br&gt; spacing. Use a new &lt;p&gt; tags for paragraph breaks.</p>
+         
+          <td class="col" align="left" width="100%" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 100%;">
+			 <h1 style="font-size:1em;font-weight: 400;">Hi <span class=eloquaemail >first_name1</span>,</h1>
+             <p style="font-size:1em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl rhoncus mattis. Sit amet porttitor eget dolor. Volutpat consequat mauris nunc congue nisi vitae suscipit. Dolor sit amet consectetur adipiscing elit. Tempor orci eu lobortis elementum nibh tellus molestie. Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. 
+</p>
+			  <p style="font-size:1em;">Donec et odio pellentesque diam. Ut morbi tincidunt augue interdum velit euismod in. Commodo elit at imperdiet dui accumsan. Sapien faucibus et molestie ac feugiat sed. Vel orci porta non pulvinar. Interdum varius sit amet mattis. Quam viverra orci sagittis eu. Facilisis leo vel fringilla est ullamcorper. Auctor urna nunc id cursus metus aliquam eleifend.<sup class="footnote"><a href="#footer" aria-label="Footnote 1">1</a></sup></p>
+			  
           </td> 
-          <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
         </tr>
       </table>
     </td>
   </tr>
 </table> 
 <!-- END ONE COLUMN -->		
-	
-				
-		
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD TABLES - ALL CONENT ABOVE THIS LINE /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->			
 
 <!-- START ROW Footer -->
  <table id="footer" role="presentation" class="footer-table-wht" align="center" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td class="px-m-0" style="color: #222222;background-color: #ffffff;mso-padding-alt: 24px 4px 4px 8px;padding: 24px 4px 4px 8px;text-align: left;">
+    <td class="px-m-0" style="color: #222222;background-color: #ffffff;mso-padding-alt: 24px 0px 0px 4px;padding: 24px 0px 0px 4px;text-align: left;">
 <h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
 <ol class="footer-list" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">
-		<li style="font-size:.75em;line-height: 18px;">footnote item </li>
-		<li style="font-size:.75em;line-height: 18px;">footnote item</li>	
+		<li style="line-height: 16px;"><a class="footer-link-dark" style="text-decoration: underline; color: #222222; " href="https://www.adp.com/terms/3-month-offer-terms.aspx" ><span style="color: #222222; text-decoration: underline; font-size: 16px;">See terms and conditions</span></a></li>
+			
 		</ol>
       <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .75em; line-height: 18px;color:#222222;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
       </p>

@@ -96,7 +96,7 @@ body { margin: 0 auto; padding: 0; width: 100% ; }
 h1, h2, h3, h4, h5, h6 {margin:0;padding: 0;}
 .spacer, .divider {mso-line-height-rule:exactly; overflow: hidden; vertical-align: middle;}
 li {text-align:-webkit-match-parent; display:list-item;margin-bottom:5px;}
-p {margin-top:5px;margin-bottom:5px;}
+p {margin-top:8px;margin-bottom:14px;}
 ul {margin-top:5px;margin-bottom:5px;}	
 </style>
 		
