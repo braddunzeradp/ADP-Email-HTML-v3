@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-Stack-50/50-LeftTxt-RightImg-ImgScales" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START TWO COLUMN 50/50 FULL WIDTH PADDING ON LEFT AND RIGHT --> 
+         
+  <table class="col-5050-2img" bgcolor="#ffffff" style="background-color:#ffffff ;" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>&nbsp;<!-- top margin row --> </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+	</tr>
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>
+    <!-- Start left Column with IMAGE and Text -->
+       <table class="col" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 264px;" width="264">
+        <tr>
+	        <td class="col" align="center" width="264" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 264px;" >
+                <table class="col" cellpadding="0" cellspacing="0" role="presentation" width="264" align="center" style="width: 264px;">
+                  <tr>
+                    <td class="col" align="left" width="264" style="mso-line-height-rule:at-least;" >
+						<p style="font-size:1.2em"><strong>Headline 1.2em</strong></p>
+                        <p>Simple paragraph text can be added to columns in the tables.</p>
+                     </td>
+                  </tr>
+                </table>
+            </td>
+        </tr>
+      </table>
+    <!-- END left Column with IMAGE and Text -->
+    
+   <!-- Start spacer in column layout -->
+       <table class="col3-spacer" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="margin: 0;padding:0;width:18px;border-collapse: collapse;" width="18">
+		 <tr><td>&nbsp;</td></tr></table>
+	<!-- End spacer in  column layout -->	 
+    
+      <!-- Start Right Column with IMAGE and Text -->
+       
+		<table class="col-img col-img264 pt-sm-24" cellpadding="0" cellspacing="0" role="presentation"  align="left" style="min-width: auto; margin: 0 auto;width: 264px;" width="264">
+        <tr>
+	        <td class="col-img" align="center" width="264" style="mso-line-height-rule:at-least;min-width: auto; margin: 0 auto;width: 264px;" >
+        <table class="col-img col-img264" cellpadding="0" cellspacing="0" role="presentation" width="264" align="center" style="width: 264px;">
+            <tr>
+               <td class="col-img col-img264" align="center" width="264" style="mso-line-height-rule:at-least;width: 264px;" >
+                   <img class="img-scale" src="https://placehold.co/264x200/0041dc/FFFFFF/png" width="264" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 264px;">
+              </td>
+            </tr>
+        </table>
+          </td>
+        </tr>
+      </table>
+		
+		
+    <!-- END Right Column with IMAGE and Text --> 
+       
+
+    </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+  </tr>
+  <tr>
+   <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+    <td>&nbsp;<!-- bottom margin row --> </td>
+     <td class="mobile-hide" width="24" style="width:24px;">&nbsp;</td>
+	</tr>
+</table> 
+<!-- END TWO COLUMN 50/50 FULL WIDTH PADDING ON LEFT AND RIGHT --> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

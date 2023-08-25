@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Footer-BGLiteGrey-CAN-FR" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START ROW Footer -->
+ <table id="footer" bgcolor="#f7f6f4" role="presentation" class="footer-table-grey" align="left" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f7f6f4;">
+  <tr>
+    <td style="mso-padding-alt: 24px 24px 24px 24px;padding: 24px 24px 24px 24px;text-align: left;">
+<h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
+<ol class="footer-list" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">
+		<li style="font-size:.75em;line-height: 18px;">footnote item </li>
+		<li style="font-size:.75em;line-height: 18px;">footnote item</li>	
+		</ol>
+      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .75em; line-height: 18px;color:#222222;">ADP and the ADP logo are registered trademarks of ADP, Inc. All other ADP et le logo ADP sont des marques de commerce déposées d’ADP, Inc.© Compagnie ADP Canada, <span class=eloquaemail >System_Year_Date1</span>. TOUS DROITS RÉSERVÉS.	  
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- END ROW footer -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
