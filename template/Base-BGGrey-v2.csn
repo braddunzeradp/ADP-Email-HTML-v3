@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Base-BGGrey-v2" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!--code v3--><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="color-scheme" content="light dark">
+        <meta name="supported-color-schemes" content="light dark">
+        <title><eloqua type="emailfield" syntax="elqWASubject" /></title>
+ 
+<!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+Campaign ID: <eloqua type="campaign" fieldname="id" />
+Email ID: <eloqua type="emailfield" syntax="elqEmailDefinitionID" />
+LP ID: 
+Form ID: 
+
+
+PD/CD:
+Content:
+MT:
+GD: 
+
+ 
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->   
+		
+	<style id="Eloqua System Footer and Header">
+		.elq-footer {background-color:#999999 !important;}
+		.elq-footer-fixed {background-color:#999999 !important; padding-left: 20px; padding-right:20px; padding-bottom: 20px;}
+		.elq-footer-fixed p  {font-size:.75em !important;line-height:18px !important;} 
+		.elq-footer p {font-size:.75em !important;line-height:18px !important;}  
+		.elq-footer-text, .elq-footer-text a, .elq-footer-text-email, .elq-footer-text-email a {font-size:.75em!important;}
+		.elq-footer-text-email a {text-decoration: none !important;}
+			/*do not modify below classes*/
+		@media screen and (max-width: 600px) {
+		u ~ div .elq-footer {background-color:#FFFFFF!important;}
+		u ~ div .elq-footer-fixed {background-color:#FFFFFF!important;}
+		.elq-footer {background-color:#FFFFFF !important;}
+		.elq-footer-fixed {background-color:#FFFFFF !important; padding-left: 20px; padding-right:20px; padding-bottom: 20px;width:100% !important;}
+		}		
+	</style>
+		
+		
+		
+         <style id="Gmail Overrides">
+            @media screen and (max-width: 480px) {
+                u ~ div .wrapper {background-color:#ffffff!important;}
+                u ~ div .mobile-hide {display: none!important;}  
+				u ~ div .show-style-support{display: none!important;}
+				u ~ div .show-media-support{display: block!important;}
+				u ~ div .l-align {float:none;}
+				u ~ div .r-align {float:none;}
+            }
+  	    </style>
+        
+        <style id="fonts"> 
+            @font-face {
+                font-family:'ADP Taub';
+                src: url('https://www.adp.com/static/project/adp/fonts/TaubSans-Regular.woff2') format('woff2'), url('https://www.adp.com/static/project/adp/fonts/TaubSans-Regular.woff') format('woff');
+                font-weight: 400;
+                font-style: normal;}
+            @font-face {
+                font-family:'ADP Taub';
+                src: url('https://www.adp.com/static/project/adp/fonts/TaubSans-RegularItalic.woff2') format('woff2'), url('https://www.adp.com/static/project/adp/fonts/TaubSans-RegularItalic.woff') format('woff');
+                font-weight: 400;
+                font-style: italic;}
+            @font-face {
+                font-family:'ADP Taub';
+                src: url('https://www.adp.com/static/project/adp/fonts/TaubSans-Bold.woff2') format('woff2'), url('https://www.adp.com/static/project/adp/fonts/TaubSans-Bold.woff') format('woff');
+                font-weight: 600;
+                font-style: normal;}
+            @font-face {
+                font-family:'ADP Taub';
+                src: url('https://www.adp.com/static/project/adp/fonts/TaubSans-BoldItalic.woff2') format('woff2'), url('https://www.adp.com/static/project/adp/fonts/TaubSans-BoldItalic.woff') format('woff');
+                font-weight: 600;
+                font-style: italic;}		
+            </style>
+        
+        <style id="Client-Specific-Styles" type="text/css">
+body, table, td, p, a, li, div, blockquote{text-size-adjust: 100%; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-line-height-rule:exactly;}
+table {mso-table-lspace:0pt; mso-table-rspace:0pt;}	/* removes table space - do not remove  */
+img, a img{ border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;}
+</style>
+    
+            
+   
+<style id="Reset Styles">
+
+table, td { border-collapse: collapse;table-layout: fixed; }
+body { margin: 0 auto; padding: 0; width: 100% ; }
+h1, h2, h3, h4, h5, h6 {margin:0;padding: 0;}
+.spacer, .divider {mso-line-height-rule:exactly; overflow: hidden; vertical-align: middle;}
+li {text-align:-webkit-match-parent; display:list-item;margin-bottom:5px;}
+p {margin-top:8px;margin-bottom:14px;}
+ul {margin-top:5px;margin-bottom:5px;}	
+</style>
+		
+
+
+
+<style id="Typography">	
+table,td,th,p,div,span,li {font-size: 18px; color: #222222;}
+p,li{line-height: 24px;}
+.footer-list {margin-left:0;}
+	
+a {font-size:inherit; line-height:inherit;}	
+.col, td, th {vertical-align: top;}	
+.valign {vertical-align: middle !important;}	
+table,td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif !important; word-wrap: break-word; word-break: normal; hyphens: none;-moz-hyphens: none; -webkit-hyphens: none; -ms-hyphens: none;}
+a.link-blue, a.link-white, a.link-black{text-decoration: underline!important;}	
+a:hover .link-blue {color:#0041dc!important;}
+a:hover .link-blue-inner {color:#0041dc!important;}
+a:hover .link-white {color:#a3a6ba!important;}
+a:hover .link-white-inner {color:#a3a6ba!important;}
+a:hover .link-black {color:#54565a!important;}
+a:hover .link-black-inner {color:#54565a!important;}	
+a.link-inherit:hover {text-decoration: underline;color:inherit;}
+.auto-hyphenation {hyphens: auto!important; -moz-hyphens: auto!important; -webkit-hyphens: auto!important; -ms-hyphens: auto!important; } 
+.manual-hyphenation {hyphens: manual!important;-moz-hyphens: manual!important; -webkit-hyphens: manual!important; -ms-hyphens: manual!important; }
+.no-hyphenation {hyphens: none!important; -moz-hyphens: none!important; -webkit-hyphens: none!important; -ms-hyphens: none!important;	}
+.list-flush-left li {margin-left: -1.2em;}
+.od-footer a {font-size:.55em !important;mso-line-height-rule:at-least !important;}
+.copyright, .registration, .trademark, .footnote, .footnote a {font-family: sans-serif !important;}
+.footnote a {text-decoration: none !important;color:#222222;font-size:.75em;}	
+ 		
+
+</style>
+		
+<style id="button">
+	.btn-blue a:hover{background-color:#0041dc!important;border-color:#0041dc!important;}
+	.btn-blue a:visited{background-color:#26328C!important;border-color:#26328C!important;}
+	.btn-navy a:hover{background-color:#1e308a!important;border-color:#1e308a!important;}
+	.btn-navy a:visited{background-color:#121c4e!important;border-color:#121c4e!important;}
+	.btn-red a:hover{background-color:#f22e22!important;border-color:#f22e22!important;}
+	.btn-red a:visited{background-color:#d0271d!important;border-color:#d0271d!important;}
+	.btn-navy-ol a:hover{background-color:#eef4fe!important;border-color:#0041dc!important;}
+	.btn-navy-ol a:visited{background-color:#eef4fe!important;border-color:#26328C!important;}
+</style>		
+
+
+<style id="Structure">
+.container {margin: 0 auto; width:600px;}	
+.spacer, .divider {mso-line-height-rule:exactly; overflow: hidden; vertical-align: middle;}
+.list-topbottom-margin {margin-top:24px; margin-bottom: 24px;}
+.col3innertop{width: 100%!important;}
+.col3innerbtm{width: 100%!important;}	
+/* class below controls color and size in development only */	
+.footer-table-dark .remove-absolute {font-size:.55em;line-height: 14px; color: #ffffff;}
+.footer-table-grey .remove-absolute {font-size:.55em;line-height: 14px; color: #222222;}	
+.footer-table-wht .remove-absolute {font-size:.55em;line-height: 14px; color: #222222;}
+.footer-table-wht ol, .footer-table-wht ul, .footer-table-dark ol, .footer-table-dark ul, .footer-table-grey ol, .footer-table-grey ul {padding-left:10px!important;}	
+.footer-table-wht, .footer-table-wht li {color:#222222;}
+.footer-table-dark, .footer-table-dark li {color:#ffffff;}
+.footer-table-grey, .footer-table-grey li {color:#222222;}	
+.web-version {background-color:#eee;width:100%;}
+.web-version a {font-size:.55em;color:#da1e32;}
+/*.btn-spacer {font-size:.77em;line-height: 14px;letter-spacing: 6px;}*/
+.show-style-support{display:block!important;}
+	
+	
+.m-content {display: none !important;max-height: none !important; mso-hide: all !important;height: 0 !important;}
+	.l-align {float:left;}
+	.r-align {float:right;}
+
+</style>
+
+<style>
+a[x-apple-data-detectors] {color: inherit!important;text-decoration: none!important;font-size: inherit!important;font-family: inherit!important;font-weight: inherit !important;line-height: inherit!important;}
+	
+[owa] a {color: inherit;text-decoration: none;font-size: inherit;font-family: inherit;font-weight: inherit;line-height: inherit;}
+</style>
+<style>
+u + #body a {color: inherit;text-decoration: none;font-size: inherit;font-family: inherit;font-weight: inherit;line-height: inherit;}	
+</style>
+
+
+
+<style type="text/css">
+#outlook a {padding: 0;}
+.col-img {min-width: auto!important;float: left;} 
+	
+@media only screen {
+table, td, th, div, p, span, a,h1,h2,h3,h4,h5,h6 {font-family:'ADP Taub','Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif!important;}
+
+.col3-spacer {min-width: auto!important;width:24px!important;float: left;}	
+	
+
+.col-img290 {max-width:290px!important;width:290px!important;min-width: 290px!important;margin:0 auto!important;}
+.col-img264 {max-width:264px!important;width:264px!important;min-width: 264px!important;margin:0 auto!important;}
+.col-img250 {max-width:250px!important;width:250px!important;min-width: 250px!important;margin:0 auto!important;}
+.col-img190 {max-width:190px!important;width:190px!important;min-width: 190px!important;margin:0 auto!important;}
+.col-img170 {max-width:170px!important;width:170px!important;min-width: 170px!important;margin:0 auto!important;}
+.col-img140 {max-width:140px!important;width:140px!important;min-width: 140px!important;margin:0 auto!important;}	
+.col-168 {max-width:168px!important;width:168px!important;min-width: 168px!important;margin:0 auto!important;}
+	
+}	
+	
+		
+@media only screen and (max-width: 600px) {	
+.wrapper {background-color:#ffffff!important;}	
+.wrapper img {max-width: 100%;}
+u ~ div .wrapper {min-width: 100vw;}
+.container {width: 100%!important; -webkit-text-size-adjust: 100%;}
+.col {display: inline-block!important;width: 100%!important;max-width:100%!important;}
+.col-resize {max-width: 100%!important;}	
+.btn-wide {display: inline-block!important;line-height: 45px!important; width: 100%!important; font-size:1.66em!important;}	
+.col-img { width: 100%!important;}
+.img-scale {width: 100%!important;} 
+.header_bg_resp{background-size:100% !important;height:auto !important;}	
+.mobile-hide {display: none!important;}
+.col4_24 {width:24px!important;}
+.col4_half {width:48%;}
+.show-style-support{display: none!important;}
+.show-media-support{display: block!important;}		
+.col-img290 {max-width:100%!important;width:100%!important;min-width: 100%!important;margin:0 auto!important;}
+.col-img264 {max-width:100%!important;width:100%!important;min-width: 100%!important;margin:0 auto!important;}
+.col-img250 {max-width:100%!important;width:100%!important;min-width: 100%!important;margin:0 auto!important;}
+.col-img190 {max-width:100%!important;width:100%!important;min-width: 100%!important;margin:0 auto!important;}
+.col-img170 {max-width:100%!important;width:100%!important;min-width: 100%!important;margin:0 auto!important;}
+.col-img140 {max-width:100%!important;width:100%!important;min-width: 100%!important;margin:0 auto!important;}
+.col-168 {max-width:100%!important;width:100%!important;min-width: 100%!important;margin:0 auto!important;}
+.cell-scale-50 {width:125px!important;}	
+.cell-scale-50r {width:280px!important;}
+.col3innertop{width: 30%!important;float: left;}
+.col3innerbtm{width: 70%!important;}
+.two-col-90-10-l{width: 75% !important;}
+.two-col-90-10-r{width: 25% !important;}	
+	
+.vspacer0 {font-size: 0!important; line-height: 0!important; }
+.vspacer8 {font-size: 8px!important; line-height: 8px!important; }
+.vspacer16 {font-size: 16px!important; line-height: 16px!important; }
+.vspacer24 {font-size: 24px!important; line-height: 24px!important; }
+.vspacer32 {font-size: 32px!important; line-height: 32px!important; }
+.vspacer40 {font-size: 40px!important; line-height: 40px!important; }	
+
+
+.m-content {display: block !important;width: auto !important;max-height: none !important;overflow: visible !important;height: 100% !important;}	
+	
+.l-align {float:none;}
+.r-align {float:none;}	
+}
+	
+	
+@media only screen and (max-width:481px) {
+.mob-hide { display: none!important }
+}	
+ @media only screen and (max-width: 480px) { 
+        .col-sm-1 {max-width: 25%;}
+        .col-sm-2 {max-width: 50%;}
+        .col-sm-3 {max-width: 75%;}
+        .col-sm-third {max-width: 33.33333%;}
+        .col-sm-push-1 {margin-left: 25%;}
+        .col-sm-push-2 {margin-left: 50%;}
+        .col-sm-push-3 {margin-left: 75%;}
+        .col-sm-push-third {margin-left: 33.33333%;}
+        .full-width-sm {display: table!important; width: 100%!important;}
+        .stack-sm-first {display: table-header-group!important;}
+        .stack-sm-last {display: table-footer-group!important;}
+        .stack-sm-top {display: table-caption!important; max-width: 100%; padding-left: 0!important;}
+		.align-sm-center {display: table!important;float: none;margin-left: auto!important;margin-right: auto!important;}
+        .align-sm-left {float: left;}
+        .align-sm-right {float: right;}
+        .text-sm-center {text-align: center!important;}
+        .text-sm-left {text-align: left!important;}
+        .text-sm-right {text-align: right!important;}
+        .spacer {height: 0!important;}
+	 .cell-scale-50 {width:100px!important;}
+	 .cell-scale-50r {width:200px!important;}
+      }
+    </style>
+  
+<style id="DarkMode">
+    :root {color-scheme:light dark; supported-color-schemes:light dark;} 
+    
+	/*target-ios*/
+    @media (prefers-color-scheme: dark) {
+        table, td, th,p,div,li {color:#00000f !important;}
+		.container{background:#FCFCFC !important;}
+        .white-txt{color:#FCFCFC !important;}
+		.footer-table-dark, .footer-table-grey {background:#999999 !important;}
+		
+    }
+</style>
+    
+		
+    <!--[if mso]>
+    <noscript>
+            <xml>
+              <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+              </o:OfficeDocumentSettings>
+            </xml>
+          </noscript>
+    <style>
+		table {border-collapse: collapse;mso-cellspacing:0px;mso-padding-alt: 0px;}
+		.spacer,.divider {mso-line-height-rule: exactly;}
+		td,th,div,p,a,span,li,h1,h2,h3,h4,h5,h6 {font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI',Helvetica,Arial,sans-serif !important;}
+		li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}
+		.list-flush-left li {margin-left: -1.9em;}
+		.footer-list li {margin-left: -1.4em;}
+		.adphflinks {font-size:10px !important;}
+		span.MsoHyperlinkFollowed { mso-style-priority:99; color:#FFFFFF; }
+span.MsoHyperlink	{mso-style-priority:99;}		
+sup {mso-text-raise:.6em;}
+		.footnote a{text-decoration:none !important;color:#222222 !important;mso-text-raise:.1em !important;font-family:sans-serif;}
+
+		
+    </style>
+    <![endif]-->       
+  
+
+		
+    </head>
+    <body id="body" class="body" style="box-sizing:border-box;margin:0;padding:0;width:100%;word-break:break-word;-webkit-font-smoothing:antialiased;">
+        <table role="article" aria-roledescription="email" aria-label="an email from adp" class="wrapper elq-locked" bgcolor="#999999" cellpadding="16" cellspacing="0" width="100%" style="mso-padding-alt: 16px 16px 16px 16px;mso-cellspacing:0;" lang="en" dir="ltr">
+            <tr>
+            <td align="center">
+            <table role="presentation"  class="container" bgcolor="#FCFCFC" cellpadding="0" cellspacing="0" width="600" style="width: 600px;" >
+            <tr>
+            <td  align="left">
+<span elqid="6859" elqtype="Section" class="remove-absolute" style="display: block"></span>
+<!--  ADD NAV TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
+<!--  /--------------------------------------------------------------------------/ -->
+
+	   <!-- START nav bar top -->
+ <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+          <tr class="mobile-hide"><td width="24" style="line-height: 1px; font-size:1em; width: 24px;">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr>
+         <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;">
+             <img src="http://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B176754e1-1075-43ff-a721-41f002fbe002%7D_adp-70x32.png" width="70" alt="ADP Logo" style="max-width: 70px; width: 70px; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;">
+          </td> 
+          <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+        </tr>
+        <tr><td class="mobile-hide" width="24" style="line-height: 1px; font-size:1em; width: 24px;">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>  
+      </table>
+    </td>
+  </tr>
+</table> 
+<!-- END nav bar top --> 			
+
+<!--  ADD CONTENT TABLES BELOW HERE - TABLES ARE USED AS ROWS /\/\/\/\/\/\/\/\/\/\/\/\/\ -->
+<!--  /--------------------------------------------------------------------------/ -->
+		
+  		
+			
+		
+<!--  /--------------------------------------------------------------------------/ --> 
+<!-- END ADD TABLES - ALL CONENT ABOVE THIS LINE /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->			
+
+					
+<!-- START ROW Footer -->
+ <table id="footer" bgcolor="#121c4e" role="presentation" class="footer-table-dark" align="left" cellpadding="0" cellspacing="0" width="100%" style="background-color:#121c4e;">
+  <tr>
+    <td style="mso-padding-alt: 24px 24px 24px 24px;padding: 24px 24px 24px 24px;">
+<h2 aria-label="Footer with email management links and legal text" style="font-size: 1px;line-height: 1px;margin: 0;">&nbsp;</h2>		
+<ol class="footer-list" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;">
+		<li style="font-size:.75em;line-height: 18px;">footnote item </li>
+		<li style="font-size:.75em;line-height: 18px;">footnote item</li>	
+		</ol>
+      <p class="footer-text" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: .75em; line-height: 18px;color:#ffffff;text-align: left;">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;<span class=eloquaemail >System_Year_Date1</span>&nbsp;ADP,&nbsp;Inc. All&nbsp;rights&nbsp;reserved
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- END ROW footer -->
+						
+<!--  /--------------------------------------------------------------------------/ --> 
+<!-- END ADD FOOTER TABLE -  /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+ 	
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+		 
+    </body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
