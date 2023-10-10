@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Base-BGGrey-v2" description="" type="wrap">
+<snippet name="Base-BGGrey-v1" description="" type="wrap">
 <insertText location="beforeSelection">
 <![CDATA[<!DOCTYPE html>
 <html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -162,7 +162,35 @@ a.link-inherit:hover {text-decoration: underline;color:inherit;}
 /*.btn-spacer {font-size:.77em;line-height: 14px;letter-spacing: 6px;}*/
 .show-style-support{display:block!important;}
 	
-	
+	.p-0 {padding: 0!important;mso-padding-alt: 0!important;}
+.p-8 {padding: 8px!important;mso-padding-alt: 8px!important;}
+.p-16 {padding: 16px!important;mso-padding-alt: 16px!important;}	
+.p-24 {padding: 24px!important;mso-padding-alt: 24px!important;}
+.pt-0 {padding-top: 0!important;mso-padding-top-alt:0!important;}
+.pt-8 {padding-top: 8px!important;mso-padding-top-alt:8px!important;}
+.pt-16 {padding-top: 16px!important;mso-padding-top-alt:16px!important;}
+.pt-d-16 {padding-top: 16px!important;mso-padding-top-alt:16px!important;}	
+.pt-24 {padding-top: 24px!important;mso-padding-top-alt:24px!important;}
+.pr-0 {padding-right: 0!important;mso-padding-right-alt:0!important;}
+.pr-8 {padding-right: 8px!important;mso-padding-right-alt:8px!important;}
+.pr-16 {padding-right: 16px!important;mso-padding-right-alt:16px!important;}
+.pr-24 {padding-right: 24px!important;mso-padding-right-alt:16px!important;}
+.pb-0 {padding-bottom: 0!important;mso-padding-bottom-alt:0!important;}
+.pb-8 {padding-bottom: 8px!important;mso-padding-bottom-alt:8px!important;}
+.pb-16 {padding-bottom: 16px!important;mso-padding-bottom-alt:16px!important;}
+.pb-24 {padding-bottom: 24px!important;mso-padding-bottom-alt:24px!important;}
+.pl-0 {padding-left: 0!important;mso-padding-left-alt:0!important;}
+.pl-8 {padding-left: 8px!important;mso-padding-left-alt:8px!important;}
+.pl-16 {padding-left: 16px!important;mso-padding-left-alt:16px!important;}
+.pl-24 {padding-left: 24px!important;mso-padding-left-alt:24px!important;}
+.px-0 {padding-right: 0!important; padding-left: 0!important;mso-padding-left-alt:0!important;mso-padding-right-alt:0!important;}
+.px-8 {padding-right: 8px!important; padding-left: 8px!important;mso-padding-left-alt:8px!important;mso-padding-right-alt:8px!important;}
+.px-16 {padding-right: 16px!important; padding-left: 16px!important;mso-padding-left-alt:16px!important;mso-padding-right-alt:16px!important;}
+.px-24 {padding-right: 24px!important; padding-left: 24px!important;mso-padding-left-alt:24px!important;mso-padding-right-alt:24px!important;}
+.py-0 {padding-top: 0!important; padding-bottom: 0!important;mso-padding-top-alt:0!important;mso-padding-bottom-alt:0!important;}
+.py-8 {padding-top: 8px!important; padding-bottom: 8px!important;mso-padding-top-alt:8px!important;mso-padding-bottom-alt:8px!important;}
+.py-16 {padding-top: 16px!important; padding-bottom: 16px!important;mso-padding-top-alt:16px!important;mso-padding-bottom-alt:16px!important;}
+.py-24 {padding-top: 24px!important; padding-bottom: 24px!important;mso-padding-top-alt:24px!important;mso-padding-bottom-alt:24px!important;}
 .m-content {display: none !important;max-height: none !important; mso-hide: all !important;height: 0 !important;}
 	.l-align {float:left;}
 	.r-align {float:right;}
@@ -238,7 +266,39 @@ u ~ div .wrapper {min-width: 100vw;}
 .vspacer32 {font-size: 32px!important; line-height: 32px!important; }
 .vspacer40 {font-size: 40px!important; line-height: 40px!important; }	
 
-
+.p-0 {padding: 0!important;}
+.p-8 {padding: 8px!important;}
+.p-16 {padding: 16px!important;}
+.p-24 {padding: 24px!important;}
+.pt-0 {padding-top: 0!important;}
+.pt-8 {padding-top: 8px!important;}
+.pt-16 {padding-top: 16px!important;}
+.pt-d-16 {padding-top: 0em!important;mso-padding-top-alt:0em!important;}	
+.pt-24 {padding-top: 24px!important;}
+.pr-0 {padding-right: 0!important;}
+.pr-8 {padding-right: 8px!important;}
+.pr-16 {padding-right: 16px!important;}
+.pr-24 {padding-right: 24px!important;}
+.pb-0 {padding-bottom: 0!important;}
+.pb-8 {padding-bottom: 8px!important;}
+.pb-16 {padding-bottom: 16px!important;}
+.pb-m-16 {padding-bottom: 16px!important;}	
+.pb-24 {padding-bottom: 24px!important;}
+.pl-0 {padding-left: 0!important;}
+.pl-m-0 {padding-left: 0!important;}	
+.pl-8 {padding-left: 8px!important;}
+.pl-16 {padding-left: 16px!important;}
+.pl-24 {padding-left: 24px!important;mso-padding-left-alt:24px!important;}
+.px-0 {padding-right: 0!important; padding-left: 0!important;}
+.px-m-0 {padding-left: 0!important;padding-right: 0!important;}	
+.px-8 {padding-right: 8px!important; padding-left: 8px!important;}
+.px-16 {padding-right: 16px!important; padding-left: 16px!important;}
+.px-24 {padding-right: 24px!important; padding-left: 24px!important;}
+.py-0 {padding-top: 0!important; padding-bottom: 0!important;}
+.py-8 {padding-top: 8px!important; padding-bottom: 8px!important;}
+.py-16 {padding-top: 16px!important; padding-bottom: 16px!important;}
+.py-m-16 {padding-top: 16px!important; padding-bottom: 16px!important;}	
+.py-24 {padding-top: 24px!important; padding-bottom: 24px!important;}
 .m-content {display: block !important;width: auto !important;max-height: none !important;overflow: visible !important;height: 100% !important;}	
 	
 .l-align {float:none;}
@@ -351,7 +411,7 @@ sup {mso-text-raise:.6em;}
 <!--  /--------------------------------------------------------------------------/ -->
 		
   		
-			
+				
 		
 <!--  /--------------------------------------------------------------------------/ --> 
 <!-- END ADD TABLES - ALL CONENT ABOVE THIS LINE /\/\/\/\/\/\/\/\/\/\/\/\/\/ -->			
