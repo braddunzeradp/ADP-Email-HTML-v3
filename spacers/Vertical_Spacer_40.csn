@@ -2,7 +2,7 @@
 <snippet name="Vertical Spacer 40" description="" type="block">
 <insertText location="beforeSelection">
 <![CDATA[<!-- START vspacer -->
-<div class="vspacer40" style="font-size:40px;line-height: 40px;clear:both;" aria-hidden="true" aria-hidden="true">&nbsp;</div>
+<div class="vspacer40" style="font-size:40px;line-height: 40px;clear:both;" aria-hidden="true" >&nbsp;</div>
 <!-- END vspacer -->]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
