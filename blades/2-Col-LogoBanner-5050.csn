@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-LogoBanner-50/50" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!-- START TWO COLUMN 50/50 FULL WIDTH PADDING ON LEFT AND RIGHT --> 
+	<table bgcolor="#eef4fe" style="background-color:#7967AE;" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+	<tr>
+		<td style="mso-padding-alt: 20px 20px 20px 20px;padding: 20px 20px 20px 20px;">
+		<table bgcolor="#eef4fe" style="background-color:#7967AE ;" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+			  <tr>
+			   <td width="50%" style="width: 50%;mso-line-height-rule:at-least;"><img  src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B0ec7add6-832d-45fc-977c-be7ee48cf143%7D_Artboard_1.png" width="125" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 125px;"></td>
+				<td width="50%" style="width: 50%;mso-line-height-rule:at-least;">
+					<table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+					<tr>
+						<td style="float: right;"><img src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7Bceba8511-be65-4089-96ac-c5243c5c2652%7D_ADP_Logo_Small_White.png" width="90" height="auto" alt="" style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; margin:auto 0;width: 90px;"></td>
+						</tr>
+					</table>
+				  </td>	
+			</tr>
+		</table>
+		</td>
+	</tr>	
+	</table>	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
