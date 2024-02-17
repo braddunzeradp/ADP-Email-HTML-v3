@@ -304,8 +304,7 @@ u ~ div .wrapper {min-width: 100vw;}
 		.list-flush-left li {margin-left: -1.9em;}
 		.footer-list li {margin-left: -1.4em;}
 		.adphflinks {font-size:10px !important;}
-		span.MsoHyperlinkFollowed { mso-style-priority:99; color:#FFFFFF; }
-span.MsoHyperlink	{mso-style-priority:99;}		
+				
 sup {mso-text-raise:.6em;}
 		.footnote a{text-decoration:none !important;color:#222222 !important;mso-text-raise:.1em !important;font-family:sans-serif;}
 
