@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Table with 4 columns" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START ONE COLUMN --> 				
+  <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+  <tr>
+    <td style="mso-padding-alt: 0 0 20px 0;padding: 0 0 20px 0;">
+      <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;">
+        <tr>
+         <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+          <td class="col" align="left" width="552" style="font-family:'Taub Sans','Source Sans Pro Regular','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif; word-wrap: break-word; word-break: normal; -ms-hyphens: none;border-collapse: collapse; width: 552px;">
+			 <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width: 100%;border:1px solid #222222;">
+                    <tr>
+                      <td style="width:25%;border:1px solid #222222;"></td>
+                      <th style="width:25%;border:1px solid #222222;">Year 1</th>
+                      <th style="width:25%;border:1px solid #222222;">Years 2-5</th>
+                      <th style="width:25%;border:1px solid #222222;">Total ADP Payout</th>
+                    </tr>
+                    <tr >
+                      <th scope="row" style="text-align: center;border:1px solid #222222;">Refer 5 clients</th>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                    </tr>
+                    <tr >
+                      <th scope="row" style="text-align: center;border:1px solid #222222;">Refer 10 clients</th>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                    </tr>
+                    <tr >
+                      <th scope="row" style="text-align: center;border:1px solid #222222;">Refer 25 clients</th>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                      <td style="text-align: center;border:1px solid #222222;">text</td>
+                    </tr>
+                  </table>
+          </td> 
+          <td class="mobile-hide" align="center" width="24" style="line-height: 1px; font-size:1px; width: 24px;">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table> 
+<!-- END ONE COLUMN -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

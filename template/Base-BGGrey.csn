@@ -306,8 +306,8 @@ u ~ div .wrapper {min-width: 100vw;}
 		.adphflinks {font-size:10px !important;}
 				
 sup {mso-text-raise:.6em;}
-		.footnote a{text-decoration:none !important;color:#222222 !important;mso-text-raise:.1em !important;font-family:sans-serif;}
-
+		.footnote a{text-decoration:none !important;mso-text-raise:.1em !important;font-family:sans-serif;}
+h1.footnote a{text-decoration:none !important;font-family:sans-serif;mso-text-raise:20pt !important}
 		
     </style>
     <![endif]-->       
